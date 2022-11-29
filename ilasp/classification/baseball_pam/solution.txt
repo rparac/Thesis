@@ -1,0 +1,45 @@
+conds(strike) :- concept("He swung.").
+conds(strike) :- concept("It passed.").
+conds(strike) :- concept("It was a strike.").
+conds(strike) :- concept("It was also a single.").
+conds(strike) :- concept("It was in the strike zone.").
+conds(strike) :- concept("The ball was in the strike zone.").
+conds(strike) :- concept("The batter did not make contact.").
+conds(strike) :- concept("The batter missed the ball completely.").
+conds(strike) :- concept("The batter missed the ball.").
+conds(strike) :- concept("The batter missed.").
+conds(strike) :- concept("The hitter swung.").
+conds(strike) :- concept("The pitch was called a strike.").
+conds(strike) :- concept("The umpire called it a strike.").
+conds(strike) :- concept("The umpire ruled it a strike.").
+conds(foul) :- concept("A ball settled.").
+conds(foul) :- concept("Out of play.").
+conds(foul) :- concept("The ball went."), concept("The batter made contact.").
+conds(foul) :- concept("The batter hit the ball for a foul ball.").
+conds(foul) :- concept("The batter hit the ball into foul territory.").
+conds(foul) :- concept("The batter hit the ball."), concept("It a ball.").
+conds(foul) :- concept("The batter hit the ball."), concept("It was not.").
+conds(foul) :- concept("The batter hit the ball."), concept("It went.").
+conds(foul) :- concept("This is labeled as a foul.").
+conds(out) :- concept("It touched the ground.").
+conds(out) :- concept("It was caught.").
+conds(out) :- concept("The ball was caught.").
+conds(out) :- concept("The batter caught the ball.").
+conds(out) :- concept("The batter flew out to center.").
+conds(out) :- concept("The batter hit a fly ball.").
+conds(out) :- concept("The batter hit the ball in the air.").
+conds(out) :- concept("The batter is out.").
+conds(out) :- concept("The fielder caught it.").
+conds(out) :- concept("The fielder caught the ball.").
+conds(out) :- concept("The outfielder caught it.").
+conds(out) :- concept("The outfielder caught the ball.").
+conds(out) :- concept("Where it was caught.").
+conds(out) :- concept("Who caught the ball.").
+conds(play) :- concept("It bounced.").
+conds(play) :- concept("It was hit.").
+conds(play) :- concept("It was not caught.").
+conds(play) :- concept("The ball was hit.").
+conds(play) :- concept("The batter hit a ground ball.").
+conds(play) :- concept("The batter hit the ball.").
+conds(play) :- concept("The batter made contact.").
+conds(play) :- concept("The hitter hit the ball.").

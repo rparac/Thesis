@@ -1,0 +1,16 @@
+Results for 'It was a home run.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter knocked the ball out of play.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball did not go through the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter did not take a full swing.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'A ground out isn't an option.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'Hitter didn't swing his bat.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter popped it to shallow center.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The pitch was called a strike by the umpire.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It is a home run.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was collected by the third baseman.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball landed within the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was caught midair by a defender.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter swung.' is jaccard:0.0/precision:0.0/recall:0.0
+Average jaccard score: 0.0
+Average precision score: 0.0
+Average recall score: 0.0

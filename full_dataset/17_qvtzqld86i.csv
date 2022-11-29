@@ -1,0 +1,13 @@
+elapsed,917470,1617053951614,intermediate
+ZCEN3TV20WH1,play,The batter hit the ball, the ball landed in fair play, the ball wasn't caught for an out, and the batter reached base safely. You don't have hit as an option. 
+INYV9CCQ1UEK,foul,the batter hit the ball and the ball landed beyond the boundaries of fair play without getting caught. Based on the pitch count, this could technically also be a strike.
+3HM5E17WTV7J,foul,the batter hit the ball and the ball landed beyond the boundaries of fair play without getting caught. 
+28J9DW9KPDXI,none,This is a ground out, which isn't an option. 
+
+Technically, it could be called a strike because the pitch landed in the strike zone before being hit, and such strikes are still tabulated for pitchers' statistics (pitch count, strikes thrown, balls thrown.)
+UAHRSZQZFFQQ,strike,the batter swung without hitting the ball. This could also be considered a strikeout, since it was the third strike. 
+4MF9FPBL8Z23,out,the fielder caught the ball before it hit the ground, resulting in an out.
+AKXDRB3WAZM8,ball,it landed outside of the strike zone without being swung at by the batter.
+XXVTGCB0DED4,play,The batter hit the ball, the ball landed in fair play, the ball wasn't caught for an out, and the batter reached base safely. You don't have hit as an option. 
+M6KQKOB8VH11,play,The batter hit the ball, the ball landed in fair play, the ball wasn't caught for an out, and the batter reached base safely. You don't have hit as an option. 
+GADQDF1SFRTM,ball,it landed outside of the strike zone without being swung at by the batter.

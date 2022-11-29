@@ -1,0 +1,15 @@
+.idea/
+*.swp
+__pycache__/
+*.tmp
+
+# everyone should have their own virual environment
+venv/
+
+# jupyter checkpoints do not need to be in because it can be run again
+.ipynb_checkpoints/
+
+# No need to add wordle updats
+cmd/small_scripts/wordle.py
+
+jupyter-notebooks/*.png

@@ -1,0 +1,16 @@
+Results for 'The ball bounced on the ground towards the second baseman.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The fielder caught the ball for an out.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batted ball went into the stands in foul territory.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'A ball was caught by the shortstop.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The first base umpire declared that the batter did not take a full swing.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball crossed the plate outside the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter hit it towards right field.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batted ball landed for a hit.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was caught by the shortstop.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It is a strike.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'This resulted in a foul ball.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The 2nd baseman threw to first baseman.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter did not swing at the pitch.' is jaccard:0.0/precision:0.0/recall:0.0
+Average jaccard score: 0.0
+Average precision score: 0.0
+Average recall score: 0.0

@@ -1,0 +1,4 @@
+#modeh(contributes(const(label), const(score))).
+
+#modeb(concept(const(concept_id))).
+

@@ -1,0 +1,11 @@
+elapsed,600007,1616797915005,advanced
+U9ZBAV3WZZVH,out,The batter hit a fly ball into the outfield, and the left fielder ran to catch the ball before it hit the ground. He did so successfully, so the batter is out. 
+IKJWOJJODLNQ,strike,The pitcher threw an offspeed pitch ball that crossed the plate in the strike zone. The batter did not swing at the pitch. The umpire ruled the pitch a strike. 
+O6P4TECGBUMK,strike,The pitcher threw a ball that the batter swung at and missed. Since the batter did not make put the ball in play on the swing, it is a strike. 
+WQRSVJD3P7Z1,ball,The pitcher threw the ball that cross the plate outside of the strike zone. The batter did not swing at the pitch. The umpire correctly ruled the pitch a ball. 
+02I739G2D5LH,foul,The pitcher threw the ball which the batter made contact with. However, the ball then flew out of play after the batter made contact, ruling it a foul ball and a strike in the count. 
+7OZGYSBLDWS7,play,The pitcher threw the ball which the batter made contact with. The ball flew over the left field fence, resulting in a home run for the batter. This also counts as a hit in official scoring. 
+F3KUY6NWC97V,strike,it crossed the plate in or close to the strike zone. The umpire ruled the pitch a strike all the same. 
+0LMKW4WBXAXF,foul,the batter made contat with the pitch. However, the ball went behind the batter and out of play, resulting in a foul ball and a strike in the count. 
+7BX9MTU7LZRN,none,Bad format on the video. 
+KOE78QQCTDXA,foul,the batter made contact. However, the ball flew out of play on the 1st base side resulting in a foul ball and a strike in the count. 

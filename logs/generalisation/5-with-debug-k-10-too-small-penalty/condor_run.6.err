@@ -1,0 +1,4 @@
+ilasp/generalisation/solutions/sol_6.ilasp:1091:1-2: error: syntax error, unexpected EOF
+
+*** ERROR: (clingo): parsing failed
+/homes/rp218/luke-for-roko/run_cross_validation.sh: line 67: 3848627 Killed                  python3 cmd/evaluate.py ${args[@]}

@@ -1,0 +1,16 @@
+Results for 'The batter knocked the ball out of play.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter did not take a full swing.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was not in play.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The runner is out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'An out ended the inning.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'A ball was caught by the shortstop.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball was not thrown through the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The third baseman threw to second base.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The umpire behind the plate appealed to the first base umpire.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The pitch crossed the plate over the top of the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball was caught by the right fielder in the air for an out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball was caught by the first baseman.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter swung.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 1.0
+Average precision score: 1.0
+Average recall score: 1.0

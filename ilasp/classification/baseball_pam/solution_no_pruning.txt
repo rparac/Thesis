@@ -1,0 +1,36 @@
+conds(foul) :- concept(21).
+conds(out) :- concept(59).
+conds(foul) :- concept(22).
+conds(foul) :- concept(49).
+conds(out) :- concept(33).
+conds(foul) :- concept(44).
+conds(out) :- concept(40).
+conds(play) :- concept(28).
+conds(play) :- concept(31).
+conds(strike) :- concept(70).
+conds(out) :- concept(68).
+conds(strike) :- concept(53).
+conds(play) :- concept(0).
+conds(strike) :- concept(23).
+conds(foul) :- concept(26).
+conds(strike) :- concept(55).
+conds(play) :- concept(7).
+conds(strike) :- concept(71).
+conds(out) :- concept(2).
+conds(foul) :- concept(69).
+conds(foul) :- concept(1).
+conds(strike) :- concept(75).
+conds(foul) :- concept(11).
+conds(strike) :- concept(12).
+conds(out) :- concept(48).
+conds(play) :- concept(36).
+
+Confusion matrix with order ['ball' 'foul' 'out' 'play' 'strike']
+[[47  0  1  0  0]
+ [ 8 18  1 10  0]
+ [ 9  1 12  8  0]
+ [18  3  4 37  0]
+ [25  1  1  4 12]]
+Accuracy is:
+0.5727272727272728
+

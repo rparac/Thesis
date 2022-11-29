@@ -1,0 +1,104 @@
+conds(strike) :- concept("Batter swung.").
+conds(strike) :- concept("He swung.").
+conds(strike) :- concept("It landed in the strike zone.").
+conds(strike) :- concept("It passed.").
+conds(strike) :- concept("It was a single.").
+conds(strike) :- concept("It was a strike.").
+conds(strike) :- concept("It was in the strike zone.").
+conds(strike) :- concept("It was."), concept("It was hit.").
+conds(strike) :- concept("It went."), concept("The umpire called the pitch a ball.").
+conds(strike) :- concept("Missed.").
+conds(strike) :- concept("The ball crossed.").
+conds(strike) :- concept("The ball was called a strike by the umpire.").
+conds(strike) :- concept("The ball was in the strike zone.").
+conds(strike) :- concept("The ball was over the plate.").
+conds(strike) :- concept("The ball."), concept("The ball crossed the plate.").
+conds(strike) :- concept("The batter did not swing at the pitch."), concept("The ball crossed home plate.").
+conds(strike) :- concept("The batter did not swing."), concept("It was a strike.").
+conds(strike) :- concept("The batter did not swing."), concept("The ball went.").
+conds(strike) :- concept("The batter missed.").
+conds(strike) :- concept("The batter swung."), concept("It was.").
+conds(strike) :- concept("The batter swung."), concept("The batter swung at the ball.").
+conds(strike) :- concept("The batter."), concept("It went.").
+conds(strike) :- concept("The batter."), concept("The batter swung.").
+conds(strike) :- concept("The hitter swung.").
+conds(strike) :- concept("The umpire called it a strike.").
+conds(foul) :- concept("A ball fell over territory.").
+conds(foul) :- concept("A batted ball settled on foul territory.").
+conds(foul) :- concept("Ball was hit.").
+conds(foul) :- concept("Foul ball.").
+conds(foul) :- concept("It went."), concept("Batter hit the ball.").
+conds(foul) :- concept("It went."), concept("Out.").
+conds(foul) :- concept("Swing connected with the ball.").
+conds(foul) :- concept("The ball was hit."), concept("It landed.").
+conds(foul) :- concept("The ball went into foul territory.").
+conds(foul) :- concept("The ball went."), concept("It hit the ground.").
+conds(foul) :- concept("The ball went."), concept("Out.").
+conds(foul) :- concept("The ball went."), concept("The batter made contact.").
+conds(foul) :- concept("The ball."), concept("The ball was hit.").
+conds(foul) :- concept("The ball."), concept("The batter hit the ball.").
+conds(foul) :- concept("The ball."), concept("The batter made contact."), concept("The ball was.").
+conds(foul) :- concept("The ball."), concept("The batter made contact.").
+conds(foul) :- concept("The ball."), concept("The batter swung.").
+conds(foul) :- concept("The batter fouled it.").
+conds(foul) :- concept("The batter fouled the pitch.").
+conds(foul) :- concept("The batter hit the ball for a foul ball.").
+conds(foul) :- concept("The batter hit the ball into foul territory.").
+conds(foul) :- concept("The batter hit the ball."), concept("It was.").
+conds(foul) :- concept("The batter hit the ball."), concept("It went.").
+conds(foul) :- concept("The batter hit the ball."), concept("The ball went.").
+conds(foul) :- concept("The batter hit the ball."), concept("The batter swung."), concept("The ball was hit.").
+conds(foul) :- concept("The batter made contact."), concept("It landed.").
+conds(foul) :- concept("The batter made contact."), concept("It was caught by the catcher.").
+conds(foul) :- concept("The batter made contact."), concept("It went.").
+conds(foul) :- concept("The batter swung."), concept("Ball.").
+conds(foul) :- concept("The batter swung."), concept("Out.").
+conds(foul) :- concept("The batter swung."), concept("The batter made contact.").
+conds(foul) :- concept("The batter."), concept("It was caught by the catcher.").
+conds(foul) :- concept("The batter."), concept("The ball.").
+conds(foul) :- concept("The batter."), concept("The batter hit the ball."), concept("The ball was hit.").
+conds(foul) :- concept("The batter."), concept("The batter swung.").
+conds(foul) :- concept("The hitter fouled the ball.").
+conds(out) :- concept("Caught ball.").
+conds(out) :- concept("Caught.").
+conds(out) :- concept("It hit the ground."), concept("The ball flew.").
+conds(out) :- concept("It hit the ground."), concept("The baseman caught it.").
+conds(out) :- concept("It landed."), concept("The ball flew.").
+conds(out) :- concept("It touched the ground.").
+conds(out) :- concept("It was caught.").
+conds(out) :- concept("The ball was caught.").
+conds(out) :- concept("The batter caught the ball.").
+conds(out) :- concept("The batter flew.").
+conds(out) :- concept("The batter hit a fly ball.").
+conds(out) :- concept("The batter hit the ball in the air.").
+conds(out) :- concept("The batter hit the ball."), concept("The fielder caught the ball.").
+conds(out) :- concept("The batter hit the ball."), concept("Who caught it.").
+conds(out) :- concept("The batter."), concept("It hit the ground.").
+conds(out) :- concept("The batter."), concept("The batter hit the ball.").
+conds(out) :- concept("The fielder caught it.").
+conds(out) :- concept("The fielder caught the ball.").
+conds(out) :- concept("The outfielder caught it.").
+conds(out) :- concept("Who caught the ball.").
+conds(play) :- concept("Ball was hit.").
+conds(play) :- concept("Batter hit the ball.").
+conds(play) :- concept("It was hit.").
+conds(play) :- concept("It was not caught.").
+conds(play) :- concept("Swing connected with the ball.").
+conds(play) :- concept("The ball flew.").
+conds(play) :- concept("The ball was hit.").
+conds(play) :- concept("The ball was not caught.").
+conds(play) :- concept("The baseman caught it.").
+conds(play) :- concept("The baseman threw the ball.").
+conds(play) :- concept("The batter hit a home run.").
+conds(play) :- concept("The batter hit the ball on the ground.").
+conds(play) :- concept("The batter hit the ball.").
+conds(play) :- concept("The batter made contact.").
+conds(play) :- concept("The batter.").
+conds(play) :- concept("Who caught it.").
+
+{
+  "Final Semi-decomposable Representation": [ ]
+  "Length": 0,
+  "Noisy Example Penalty": 522,
+  "Uncovered Examples": [ex_1001, ex_1002, ex_1003, ex_1004, ex_1005, ex_1008, ex_1013, ex_1017, ex_1019, ex_102, ex_1026, ex_1032, ex_1033, ex_1046, ex_1053, ex_1056, ex_1059, ex_106, ex_1060, ex_1061, ex_1062, ex_1063, ex_1065, ex_1066, ex_1070, ex_1071, ex_1073, ex_1074, ex_1079, ex_1081, ex_1093, ex_1095, ex_11, ex_1102, ex_1103, ex_1105, ex_1108, ex_111, ex_1114, ex_1118, ex_1123, ex_1126, ex_1128, ex_1133, ex_1135, ex_1137, ex_1138, ex_1141, ex_1142, ex_1146, ex_115, ex_1150, ex_1154, ex_1157, ex_1163, ex_1164, ex_1165, ex_1176, ex_1189, ex_1192, ex_1197, ex_120, ex_1200, ex_1201, ex_1207, ex_1209, ex_1212, ex_1213, ex_1217, ex_1219, ex_1222, ex_1224, ex_1226, ex_1229, ex_1230, ex_1244, ex_1248, ex_1249, ex_1250, ex_1251, ex_1252, ex_1254, ex_1263, ex_1264, ex_1268, ex_1276, ex_1277, ex_1278, ex_1279, ex_128, ex_1280, ex_1281, ex_1282, ex_1283, ex_1284, ex_1285, ex_1288, ex_129, ex_1290, ex_1291, ex_1292, ex_13, ex_130, ex_1303, ex_1317, ex_1322, ex_1323, ex_1324, ex_1327, ex_1328, ex_1332, ex_1333, ex_1334, ex_1335, ex_1337, ex_1343, ex_1347, ex_135, ex_1352, ex_1353, ex_1356, ex_1357, ex_1358, ex_136, ex_1360, ex_1365, ex_1367, ex_1374, ex_1375, ex_1377, ex_1379, ex_1380, ex_1382, ex_1387, ex_1391, ex_1392, ex_1394, ex_1397, ex_14, ex_140, ex_1410, ex_1413, ex_142, ex_1423, ex_1425, ex_1427, ex_1431, ex_1433, ex_1436, ex_1438, ex_144, ex_1440, ex_1448, ex_1450, ex_1454, ex_1474, ex_1480, ex_1494, ex_1498, ex_1499, ex_1506, ex_1508, ex_1512, ex_1513, ex_1517, ex_1520, ex_1523, ex_1525, ex_1526, ex_1527, ex_1528, ex_1530, ex_1531, ex_1533, ex_1535, ex_1538, ex_1542, ex_1543, ex_1548, ex_1549, ex_1551, ex_1552, ex_1554, ex_1564, ex_1567, ex_1576, ex_1586, ex_1588, ex_1590, ex_1594, ex_1595, ex_1601, ex_1602, ex_1605, ex_1606, ex_1607, ex_1610, ex_1613, ex_1616, ex_1620, ex_1622, ex_1624, ex_1628, ex_1629, ex_1634, ex_1635, ex_1641, ex_1643, ex_1645, ex_165, ex_1654, ex_1656, ex_1657, ex_1659, ex_1661, ex_1662, ex_1665, ex_1667, ex_1669, ex_167, ex_1671, ex_1672, ex_1673, ex_1675, ex_1676, ex_1681, ex_1682, ex_1683, ex_169, ex_1696, ex_1697, ex_1698, ex_1699, ex_17, ex_170, ex_1700, ex_1705, ex_171, ex_1714, ex_1715, ex_1719, ex_1720, ex_1724, ex_1725, ex_1726, ex_1727, ex_1733, ex_1737, ex_1739, ex_1740, ex_1741, ex_1742, ex_1748, ex_1754, ex_1755, ex_1756, ex_1760, ex_1776, ex_178, ex_1782, ex_1796, ex_1798, ex_1801, ex_1804, ex_1808, ex_1812, ex_1814, ex_1818, ex_1820, ex_1837, ex_1838, ex_1842, ex_1845, ex_185, ex_1854, ex_1857, ex_1863, ex_188, ex_1884, ex_1885, ex_1886, ex_1888, ex_189, ex_1890, ex_1904, ex_1906, ex_1908, ex_1909, ex_1910, ex_1912, ex_193, ex_195, ex_196, ex_197, ex_199, ex_2, ex_201, ex_217, ex_222, ex_233, ex_236, ex_237, ex_243, ex_244, ex_246, ex_247, ex_253, ex_255, ex_257, ex_266, ex_267, ex_269, ex_270, ex_275, ex_276, ex_280, ex_285, ex_292, ex_299, ex_300, ex_313, ex_321, ex_322, ex_327, ex_329, ex_330, ex_331, ex_343, ex_358, ex_368, ex_376, ex_382, ex_391, ex_396, ex_399, ex_4, ex_401, ex_402, ex_403, ex_404, ex_408, ex_410, ex_417, ex_421, ex_424, ex_43, ex_439, ex_44, ex_444, ex_450, ex_451, ex_452, ex_453, ex_454, ex_457, ex_458, ex_46, ex_464, ex_465, ex_469, ex_470, ex_472, ex_476, ex_48, ex_489, ex_490, ex_491, ex_493, ex_497, ex_498, ex_504, ex_506, ex_508, ex_510, ex_512, ex_516, ex_518, ex_519, ex_520, ex_524, ex_525, ex_528, ex_531, ex_535, ex_538, ex_541, ex_542, ex_543, ex_545, ex_547, ex_552, ex_555, ex_556, ex_558, ex_559, ex_560, ex_561, ex_563, ex_568, ex_569, ex_572, ex_601, ex_603, ex_604, ex_605, ex_607, ex_611, ex_612, ex_613, ex_615, ex_618, ex_620, ex_621, ex_622, ex_625, ex_633, ex_634, ex_638, ex_639, ex_64, ex_640, ex_644, ex_645, ex_648, ex_649, ex_653, ex_656, ex_659, ex_661, ex_663, ex_667, ex_668, ex_68, ex_684, ex_685, ex_70, ex_712, ex_713, ex_714, ex_715, ex_725, ex_739, ex_742, ex_747, ex_748, ex_750, ex_757, ex_775, ex_776, ex_777, ex_779, ex_784, ex_787, ex_788, ex_789, ex_791, ex_797, ex_799, ex_8, ex_80, ex_800, ex_818, ex_819, ex_832, ex_833, ex_834, ex_835, ex_840, ex_842, ex_846, ex_847, ex_849, ex_850, ex_860, ex_861, ex_869, ex_87, ex_870, ex_871, ex_873, ex_878, ex_879, ex_882, ex_883, ex_885, ex_886, ex_888, ex_89, ex_899, ex_900, ex_901, ex_902, ex_904, ex_906, ex_909, ex_910, ex_913, ex_919, ex_920, ex_921, ex_922, ex_926, ex_929, ex_930, ex_939, ex_944, ex_949, ex_951, ex_957, ex_958, ex_959, ex_961, ex_965, ex_966, ex_967, ex_969, ex_970, ex_973, ex_989, ex_995, ex_996, ex_998 ],
+}

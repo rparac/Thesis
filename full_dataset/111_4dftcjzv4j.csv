@@ -1,0 +1,11 @@
+elapsed,502950,1619125251549,intermediate
+7AVJN61YDJQ0,ball,the batter did not swing. Also, the pitch was not within the strike zone.
+ZXGRUB3DFC6W,none,the pitcher did not throw the ball.
+7RAPUMF7O9NO,ball,the pitch did not land in the strike zone. In addition, the batter did not swing.
+IR2F8MS5I1UT,strike,it passed through the strike zone.
+VXG8I556ZKLP,foul,the batter hit it into foul territory before it passed first or third base.
+5GFT1FTCS1XQ,play,the batter hit it into center field, where it bounced before anyone could get to it.
+GG7H7XIWBA3I,play,the batter hit it over the fence on the fly. It was a home run.
+SPO2L61M9P8J,out,the batter hit it into left field. The left fielder caught the ball on the fly.
+QOIPG9NTAYE9,strike,it passed through the strike zone into the catcher's glove.
+KMKEFQ8BHWXC,strike,it passed through the strike zone into the catcher's glove.

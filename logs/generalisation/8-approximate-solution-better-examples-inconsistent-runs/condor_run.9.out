@@ -1,0 +1,16 @@
+Results for 'The ball did not go through the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter hit it into the air,past the foul line.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball crossed the plate outside of the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It landed outside of the strike zone without being swung at by the batter.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter hit the ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The umpire called the pitch a ball for being too high.' is jaccard:0.5/precision:1.0/recall:0.5
+Results for 'The batter hit it into foul territory.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was a ground ball to the shortstop.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It is a home run.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'This resulted in a foul ball.' is jaccard:0.6666666666666666/precision:0.6666666666666666/recall:1.0
+Results for 'The batter did not swing.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter did not swing at the pitch.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The umpire ruled it a strike.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 0.8589743589743589
+Average precision score: 0.8974358974358974
+Average recall score: 0.8846153846153846

@@ -1,0 +1,16 @@
+Results for 'The ball was not caught.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was a home run.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'A ball was caught by the shortstop.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The pitch crossed the plate in the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter hit the ball in play in the air.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball crossed the plate outside the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was caught by the shortstop.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was collected by the third baseman.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The hitter hit the ball straight up the middle.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'He was thrown out at first.' is jaccard:0.5/precision:1.0/recall:0.5
+Results for 'It was hit to the 3rd base.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The fielder caught a fly ball in the air.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The hitter didn't swing.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 0.9615384615384616
+Average precision score: 1.0
+Average recall score: 0.9615384615384616

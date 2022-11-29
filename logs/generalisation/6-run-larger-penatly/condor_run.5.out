@@ -1,0 +1,16 @@
+Results for 'The batter hit a popup.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball did not appear to be in the strike zone from the angle.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball bounced to the third baseman.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was a ball.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball was hit over the outfield wall on the fly,in fair territory.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The pitch crossed the plate inside of the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The hitter hit the ball straight up the middle to the pitcher.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The third baseman threw to second base.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The umpire ruled it a strike.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The first base umpire had a better view.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'Atulve's batted ball landed in the right field grass for a hit.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It did not go into the field of play.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'A home run was hit out of the playing grounds.' is jaccard:0.0/precision:0.0/recall:0.0
+Average jaccard score: 0.0
+Average precision score: 0.0
+Average recall score: 0.0

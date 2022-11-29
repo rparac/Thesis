@@ -1,0 +1,53 @@
+sol0:
+
+Average jaccard score: 0.9123076923076923
+Average precision score: 0.9256410256410257
+Average recall score: 0.9416666666666665
+
+
+sol1:
+Average jaccard score: 0.9058974358974359
+Average precision score: 0.9391025641025642
+Average recall score: 0.925
+
+
+sol2:
+Average jaccard score: 0.9212820512820513
+Average precision score: 0.9544871794871795
+Average recall score: 0.9403846153846154
+
+sol3:
+Average jaccard score: 0.9212820512820513
+Average precision score: 0.9544871794871795
+Average recall score: 0.9403846153846154
+
+sol4:
+Average jaccard score: 0.828974358974359
+Average precision score: 0.8544871794871796
+Average recall score: 0.8519230769230769
+
+
+sol5: - 100 less iterations than sol1 almost double
+Average jaccard score: 0.7858974358974359
+Average precision score: 0.8044871794871794
+Average recall score: 0.8461538461538461
+
+sol6:
+Average jaccard score: 0.9135897435897435
+Average precision score: 0.9467948717948719
+Average recall score: 0.9326923076923077
+
+sol7:
+Average jaccard score: 0.9084615384615385
+Average precision score: 0.9314102564102564
+Average recall score: 0.9275641025641026
+
+sol8:
+Average jaccard score: 0.918076923076923
+Average precision score: 0.9506410256410257
+Average recall score: 0.9378205128205128
+
+sol9:
+Average jaccard score: 0.9142307692307692
+Average precision score: 0.9256410256410257
+Average recall score: 0.9467948717948718

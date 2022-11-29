@@ -1,0 +1,3453 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 1                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+{'hypothesis': [], 'example_penalty': 0, 'expected_score': 0, 'hypothesis_length': 0, 'uncovered': []}
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0', 'ex_58_0', 'ex_61_1', 'ex_78_0', 'ex_7_1', 'ex_83_0', 'ex_83_1'] 
+%% Found hypothesis: [44] 1 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 2                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+287
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0', 'ex_7_1'] 
+%% Found hypothesis: [751] 3 
+%% in_atomic_sent(V1) :- dep(V2, V3, V1); dep(nsubj, V4, V3). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 3                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0', 'ex_7_1', 'ex_80_3'] 
+%% Found hypothesis: [2583] 3 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 4                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_17_1', 'ex_22_0', 'ex_48_1', 'ex_58_0', 'ex_83_0', 'ex_83_1'] 
+%% Found hypothesis: [44] 4 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 5                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+287
+%% Found positive counterexample: ex_0_1 (a total of 283 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1'] 
+%% Found hypothesis: [44, 2583] 4 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 6                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+290
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0'] 
+%% Found hypothesis: [49, 2583] 4 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 7                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+290
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0'] 
+%% Found hypothesis: [44] 5 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 8                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+287
+%% Found negative counterexample: ex_0_2 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 5917] 5 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 9                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+194
+%% Best hypotesis so far found 
+%% Found positive counterexample: ex_0_1 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1'] 
+%% Found hypothesis: [275, 2583] 5 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 10                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+285
+%% Found positive counterexample: ex_0_0 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_17_1', 'ex_22_0', 'ex_48_1'] 
+%% Found hypothesis: [44] 6 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 11                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+287
+%% Found positive counterexample: ex_10_0 (a total of 281 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 49] 6 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 12                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 5917] 6 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 13                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+194
+%% Found negative counterexample: ex_0_2 (a total of 188 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 275, 2583] 6 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 14                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found positive counterexample: ex_0_0 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0'] 
+%% Found hypothesis: [49, 2583] 6 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 15                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+290
+%% Found positive counterexample: ex_0_1 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1', 'ex_23_1', 'ex_86_1', 'ex_9_1'] 
+%% Found hypothesis: [2530, 2583] 6 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V1, V2). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 16                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_17_1', 'ex_22_0', 'ex_48_1', 'ex_58_0', 'ex_83_0', 'ex_83_1'] 
+%% Found hypothesis: [49, 275, 2583] 6 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 17                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found positive counterexample: ex_0_0 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0'] 
+%% Found hypothesis: [44, 49] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 18                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found positive counterexample: ex_10_0 (a total of 281 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 275, 2583] 7 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 19                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found positive counterexample: ex_0_1 (a total of 281 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1'] 
+%% Found hypothesis: [44, 72] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 20                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 281 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44, 72, 2583] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 21                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44] 7 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 22                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+287
+%% Found positive counterexample: ex_10_1 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_1'] 
+%% Found hypothesis: [44, 2583] 7 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 23                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+290
+%% Found positive counterexample: ex_10_0 (a total of 283 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 275, 5917] 7 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 24                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+241
+%% Found negative counterexample: ex_0_2 (a total of 234 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 5917] 7 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 25                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+194
+%% Found positive counterexample: ex_10_1 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_1'] 
+%% Found hypothesis: [44, 77, 2583] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 26                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 77, 2583] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 27                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found positive counterexample: ex_0_0 (a total of 285 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0'] 
+%% Found hypothesis: [49, 2530, 2583] 7 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V1, V2). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 28                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+293
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0'] 
+%% Found hypothesis: [44, 75, 2583] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 29                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 2583] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 30                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 5917] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 31                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+191
+%% Best hypotesis so far found 
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 5917] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 32                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+224
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 5917] 7 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 33                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+218
+%% Found negative counterexample: ex_0_2 (a total of 211 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [2530, 6586] 7 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V1, V2). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V3); dep(V2, V3, V4); dep(det, V4, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 34                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+265
+%% Found positive counterexample: ex_0_1 (a total of 258 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1', 'ex_17_1', 'ex_23_1', 'ex_25_2', 'ex_48_1', 'ex_86_1', 'ex_9_1'] 
+%% Found hypothesis: [44, 72, 77, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 35                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44, 72, 75, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 36                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44, 51, 72, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% splitting_tag(nsubj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 37                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44, 77, 275, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 38                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+242
+%% Found negative counterexample: ex_0_2 (a total of 234 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 275, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 39                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+249
+%% Found negative counterexample: ex_0_2 (a total of 241 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 275, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 40                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+247
+%% Found negative counterexample: ex_0_2 (a total of 239 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44] 8 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 41                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+287
+%% Found negative counterexample: ex_10_2 (a total of 279 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [12, 44] 8 
+%% splitting_tag(acl). 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 42                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [21, 44] 8 
+%% splitting_tag(preconj). 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 43                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 68] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(parataxis). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 44                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 77] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(mark). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 45                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found negative counterexample: ex_0_2 (a total of 281 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [14, 44, 77, 2583] 8 
+%% splitting_tag(xcomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 46                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 53] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(appos). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 47                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 77, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 48                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 78, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% splitting_tag(intj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 49                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 70] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nummod). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 50                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [19, 44, 77, 2583] 8 
+%% splitting_tag(advmod). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 51                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 47] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(auxpass). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 52                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 65] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(meta). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 53                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 54] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(csubj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 54                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 88, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% splitting_tag(predet). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 55                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [33, 44] 8 
+%% splitting_tag(poss). 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 56                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [72, 2583, 5841] 8 
+%% splitting_tag(nsubj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V3); dep(V2, V3, V1); dep(det, V1, V4). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 57                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+294
+%% Found positive counterexample: ex_0_0 (a total of 286 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0', 'ex_7_1'] 
+%% Found hypothesis: [20, 44] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 58                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 76] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(advcl). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 59                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 77, 2583] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 60                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 76, 77, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(advcl). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 61                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 51, 2583] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 62                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 76, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 63                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+185
+%% Best hypotesis so far found 
+%% Found negative counterexample: ex_0_2 (a total of 177 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 5917] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 64                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+260
+%% Found negative counterexample: ex_0_2 (a total of 252 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 76, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 65                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 75, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 66                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 75, 2583] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 67                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 76, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 68                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 77, 5917] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 69                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+259
+%% Found negative counterexample: ex_0_2 (a total of 251 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 76, 77, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(advcl). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 70                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+188
+%% Found negative counterexample: ex_0_2 (a total of 180 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 75, 5917] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 71                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+271
+%% Found negative counterexample: ex_0_2 (a total of 263 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 76, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 72                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+209
+%% Found negative counterexample: ex_0_2 (a total of 201 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 76, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 73                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+217
+%% Found negative counterexample: ex_0_2 (a total of 209 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 51, 5917] 8 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 74                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+269
+%% Found negative counterexample: ex_0_2 (a total of 261 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 51, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 75                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [49, 2530, 6586] 8 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V1, V2). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V3); dep(V2, V3, V4); dep(det, V4, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 76                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+267
+%% Found positive counterexample: ex_0_1 (a total of 259 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1', 'ex_23_1', 'ex_86_1', 'ex_9_1'] 
+%% Found hypothesis: [18, 44, 77, 2583] 8 
+%% splitting_tag(prt). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 77                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 71, 77, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubjpass). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 78                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+207
+%% Found negative counterexample: ex_0_2 (a total of 199 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 74, 77, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nmod). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 79                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 73, 77, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(npadvmod). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 80                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 67, 77, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(pcomp). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 81                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 85, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% splitting_tag(csubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 82                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 44, 77, 5917] 8 
+%% splitting_tag(quantmod). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 83                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 84                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found positive counterexample: ex_10_0 (a total of 283 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 48, 51, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(agent). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 85                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [15, 44, 77, 5917] 8 
+%% splitting_tag(relcl). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 86                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+193
+%% Found negative counterexample: ex_0_2 (a total of 185 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 82, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% splitting_tag(dep). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 87                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 2583] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 88                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found positive counterexample: ex_10_0 (a total of 283 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 69, 77, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(oprd). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 89                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+197
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 77, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 90                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+191
+%% Found positive counterexample: ex_10_1 (a total of 183 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_1'] 
+%% Found hypothesis: [44, 66, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(pobj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 91                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+261
+%% Found negative counterexample: ex_0_2 (a total of 253 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 92                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+197
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [13, 44, 5917] 8 
+%% splitting_tag(acomp). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 93                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 68, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(parataxis). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 94                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 5917] 8 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 95                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+199
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [18, 44, 51, 5917] 8 
+%% splitting_tag(prt). 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 96                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+222
+%% Found negative counterexample: ex_0_2 (a total of 214 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 71, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 97                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+209
+%% Found negative counterexample: ex_0_2 (a total of 201 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 45, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(compound). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 98                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+217
+%% Found negative counterexample: ex_0_2 (a total of 209 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 50, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(case). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 99                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+197
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 68, 75, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(parataxis). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 100                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+225
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 79, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(expl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 101                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 53, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(appos). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 102                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [14, 44, 5917] 8 
+%% splitting_tag(xcomp). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 103                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 192 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 47, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(auxpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 104                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+211
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 70, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nummod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 105                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 84, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(dative). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 106                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [43, 44, 5917] 8 
+%% splitting_tag(amod). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 107                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+221
+%% Found negative counterexample: ex_0_2 (a total of 213 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 67, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(pcomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 108                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+198
+%% Found negative counterexample: ex_0_2 (a total of 190 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 84, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% splitting_tag(dative). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 109                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+225
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 74, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(nmod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 110                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 78, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(intj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 111                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [15, 44, 5917] 8 
+%% splitting_tag(relcl). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 112                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+196
+%% Found negative counterexample: ex_0_2 (a total of 188 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [21, 44, 5917] 8 
+%% splitting_tag(preconj). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 113                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 65, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(meta). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 114                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 73, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(npadvmod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 115                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 44, 5917] 8 
+%% splitting_tag(quantmod). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 116                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 45, 75, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(compound). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 117                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+238
+%% Found negative counterexample: ex_0_2 (a total of 230 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 85, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(csubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 118                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 69, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(oprd). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 119                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 192 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [12, 44, 5917] 8 
+%% splitting_tag(acl). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 120                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 54, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(csubj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 121                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [33, 44, 5917] 8 
+%% splitting_tag(poss). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 122                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+199
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 48, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(agent). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 123                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 192 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [19, 44, 5917] 8 
+%% splitting_tag(advmod). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 124                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+196
+%% Found negative counterexample: ex_0_2 (a total of 188 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 125                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+189
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 82, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(dep). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 126                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [43, 44, 51, 5917] 8 
+%% splitting_tag(amod). 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 127                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+243
+%% Found negative counterexample: ex_0_2 (a total of 235 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 88, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(predet). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 128                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 52, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 129                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+221
+%% Found negative counterexample: ex_0_2 (a total of 213 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [18, 44, 5917] 8 
+%% splitting_tag(prt). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 130                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 192 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 75, 79, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% splitting_tag(expl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 131                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+225
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 50, 51, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(case). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 132                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+221
+%% Found negative counterexample: ex_0_2 (a total of 213 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 53, 75, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(appos). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 133                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+225
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [13, 44, 51, 5917] 8 
+%% splitting_tag(acomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 134                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+219
+%% Found negative counterexample: ex_0_2 (a total of 211 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 5917] 8 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 135                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+218
+%% Found positive counterexample: ex_10_1 (a total of 210 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_1'] 
+%% Found hypothesis: [44, 49, 77, 275, 5852] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_atomic_sent(V1) :- not candidate_start(V1); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 136                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+244
+%% Found negative counterexample: ex_0_2 (a total of 235 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 72] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(nsubj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 137                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 77, 5985] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not splitting_tag(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 138                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+214
+%% Found positive counterexample: ex_10_1 (a total of 205 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_1'] 
+%% Found hypothesis: [49, 72, 2583] 9 
+%% splitting_tag(cc). 
+%% splitting_tag(nsubj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 139                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found positive counterexample: ex_0_1 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1'] 
+%% Found hypothesis: [49, 2530, 2583] 9 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V1, V2). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 140                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+293
+%% Found positive counterexample: ex_0_1 (a total of 284 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1', 'ex_23_1', 'ex_86_1', 'ex_9_1'] 
+%% Found hypothesis: [17, 44, 72] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 141                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44, 47, 72] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(auxpass). 
+%% splitting_tag(nsubj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 142                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [21, 44, 72] 9 
+%% splitting_tag(preconj). 
+%% splitting_tag(conj). 
+%% splitting_tag(nsubj). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 143                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+289
+%% Found negative counterexample: ex_0_2 (a total of 280 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2', 'ex_40_1'] 
+%% Found hypothesis: [44, 183, 5917] 9 
+%% splitting_tag(conj). 
+%%  :- in_atomic_sent(V2); dep(conj, V1, V2). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 144                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+196
+%% Found positive counterexample: ex_11_1 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_11_1', 'ex_6_1'] 
+%% Found hypothesis: [44, 51, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 145                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+218
+%% Found negative counterexample: ex_10_2 (a total of 209 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [49, 72, 5917] 9 
+%% splitting_tag(cc). 
+%% splitting_tag(nsubj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 146                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+288
+%% Found positive counterexample: ex_0_1 (a total of 279 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_1'] 
+%% Found hypothesis: [44, 75, 77, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 147                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+223
+%% Found negative counterexample: ex_0_2 (a total of 214 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 44, 2530, 2583] 9 
+%% splitting_tag(quantmod). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V1, V2). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 148                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+294
+%% Found positive counterexample: ex_0_0 (a total of 285 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0'] 
+%% Found hypothesis: [44, 49, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 149                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+211
+%% Found negative counterexample: ex_10_2 (a total of 202 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [44, 49, 66, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(pobj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 150                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+264
+%% Found negative counterexample: ex_0_2 (a total of 255 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 104, 5917] 9 
+%% splitting_tag(conj). 
+%%  :- not candidate_start(V2); dep(cc, V1, V2). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 151                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+216
+%% Found positive counterexample: ex_0_0 (a total of 207 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_0', 'ex_22_0'] 
+%% Found hypothesis: [20, 44, 49, 2583] 9 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 152                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+292
+%% Found negative counterexample: ex_0_2 (a total of 283 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 76, 2583] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 153                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found positive counterexample: ex_10_0 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 75, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 154                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+224
+%% Found negative counterexample: ex_10_2 (a total of 215 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [13, 44, 77, 5917] 9 
+%% splitting_tag(acomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 155                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 183 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 51, 75, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 156                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+226
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [29, 44, 5917] 9 
+%%  :- dep(aux, V1, V2). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 157                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+206
+%% Found positive counterexample: ex_10_0 (a total of 197 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_0'] 
+%% Found hypothesis: [44, 5917] 9 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 158                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+194
+%% Found positive counterexample: ex_11_1 (a total of 185 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_11_1', 'ex_68_1', 'ex_6_1'] 
+%% Found hypothesis: [17, 44, 77, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 159                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+196
+%% Found negative counterexample: ex_0_2 (a total of 187 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 2583] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 160                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 76, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 161                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+202
+%% Found negative counterexample: ex_0_2 (a total of 193 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 2583, 5948] 9 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); dep(V2, V3, V1); dep(conj, V3, V4). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 162                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+282
+%% Found negative counterexample: ex_0_2 (a total of 273 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 88, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(predet). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 163                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 66, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(pobj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 164                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+258
+%% Found negative counterexample: ex_0_2 (a total of 249 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 2583] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 165                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 77, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 166                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 186 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 2583] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- in_atomic_sent(V2); dep(det, V2, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 167                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+291
+%% Found negative counterexample: ex_0_2 (a total of 282 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 68, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(parataxis). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 168                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 45, 49, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(compound). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 169                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+228
+%% Found negative counterexample: ex_0_2 (a total of 219 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 66, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(pobj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 170                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+263
+%% Found negative counterexample: ex_0_2 (a total of 254 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 47, 49, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(auxpass). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 171                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+223
+%% Found negative counterexample: ex_0_2 (a total of 214 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 44, 49, 5917] 9 
+%% splitting_tag(quantmod). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 172                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 65, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(meta). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 173                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 77, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(mark). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 174                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+186
+%% Found negative counterexample: ex_0_2 (a total of 177 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 45, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(compound). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 175                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+221
+%% Found negative counterexample: ex_0_2 (a total of 212 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 176                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+199
+%% Found negative counterexample: ex_10_2 (a total of 190 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [21, 44, 49, 5917] 9 
+%% splitting_tag(preconj). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 177                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 66, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(pobj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 178                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+264
+%% Found negative counterexample: ex_0_2 (a total of 255 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 45, 52, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(compound). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 179                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+220
+%% Found negative counterexample: ex_0_2 (a total of 211 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [19, 44, 49, 5917] 9 
+%% splitting_tag(advmod). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 180                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+211
+%% Found negative counterexample: ex_0_2 (a total of 202 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 181                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+189
+%% Found negative counterexample: ex_10_2 (a total of 180 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [44, 45, 46, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(compound). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 182                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+214
+%% Found negative counterexample: ex_0_2 (a total of 205 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 183                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+197
+%% Found negative counterexample: ex_10_2 (a total of 188 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_10_2'] 
+%% Found hypothesis: [44, 49, 73, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(npadvmod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 184                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 76, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 185                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 49, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 186                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+213
+%% Found negative counterexample: ex_0_2 (a total of 204 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 51, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 187                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+215
+%% Found negative counterexample: ex_0_2 (a total of 206 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 85, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(csubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 188                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [12, 44, 49, 5917] 9 
+%% splitting_tag(acl). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 189                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 20, 44, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 190                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+262
+%% Found negative counterexample: ex_0_2 (a total of 253 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 67, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(pcomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 191                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+193
+%% Found negative counterexample: ex_0_2 (a total of 184 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 75, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 192                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+221
+%% Found negative counterexample: ex_0_2 (a total of 212 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 71, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(nsubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 193                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+222
+%% Found negative counterexample: ex_0_2 (a total of 213 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 78, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(intj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 194                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 51, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(aux). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 195                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+220
+%% Found negative counterexample: ex_0_2 (a total of 211 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 79, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(expl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 196                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [15, 17, 44, 5917] 9 
+%% splitting_tag(relcl). 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 197                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+201
+%% Found negative counterexample: ex_0_2 (a total of 192 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 75, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 198                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+226
+%% Found negative counterexample: ex_0_2 (a total of 217 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 48, 49, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(agent). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 199                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+216
+%% Found negative counterexample: ex_0_2 (a total of 207 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 78, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(intj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 200                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 75, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(neg). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 201                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+227
+%% Found negative counterexample: ex_0_2 (a total of 218 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [33, 44, 49, 5917] 9 
+%% splitting_tag(poss). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 202                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+216
+%% Found negative counterexample: ex_0_2 (a total of 207 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [14, 17, 44, 5917] 9 
+%% splitting_tag(xcomp). 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 203                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+204
+%% Found negative counterexample: ex_0_2 (a total of 195 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [13, 44, 49, 5917] 9 
+%% splitting_tag(acomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 204                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 49, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 205                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+206
+%% Found negative counterexample: ex_0_2 (a total of 197 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [12, 44, 46, 5917] 9 
+%% splitting_tag(acl). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 206                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 70, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(nummod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 207                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 46, 5917] 9 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 208                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+257
+%% Found negative counterexample: ex_0_2 (a total of 248 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [18, 44, 49, 5917] 9 
+%% splitting_tag(prt). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 209                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+215
+%% Found negative counterexample: ex_0_2 (a total of 206 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [12, 44, 52, 5917] 9 
+%% splitting_tag(acl). 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 210                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+198
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [33, 44, 46, 5917] 9 
+%% splitting_tag(poss). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 211                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+194
+%% Found negative counterexample: ex_0_2 (a total of 185 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [14, 44, 49, 5917] 9 
+%% splitting_tag(xcomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 212                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+215
+%% Found negative counterexample: ex_0_2 (a total of 206 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 74, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(nmod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 213                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 67, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(pcomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 214                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+214
+%% Found negative counterexample: ex_0_2 (a total of 205 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [15, 44, 49, 5917] 9 
+%% splitting_tag(relcl). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 215                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+213
+%% Found negative counterexample: ex_0_2 (a total of 204 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 82, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(dep). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 216                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 85, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(csubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 217                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 52, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 218                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+214
+%% Found negative counterexample: ex_0_2 (a total of 205 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [12, 17, 44, 5917] 9 
+%% splitting_tag(acl). 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 219                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 54, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(csubj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 220                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 84, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(dative). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 221                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+198
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 84, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(dative). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 222                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [43, 44, 49, 5917] 9 
+%% splitting_tag(amod). 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 223                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+233
+%% Found negative counterexample: ex_0_2 (a total of 224 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [13, 17, 44, 5917] 9 
+%% splitting_tag(acomp). 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 224                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [14, 44, 52, 5917] 9 
+%% splitting_tag(xcomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 225                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+203
+%% Found negative counterexample: ex_0_2 (a total of 194 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 78, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(intj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 226                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 53, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(appos). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 227                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 79, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(expl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 228                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 65, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(meta). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 229                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 84, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(dative). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 230                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 69, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(oprd). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 231                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+215
+%% Found negative counterexample: ex_0_2 (a total of 206 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [14, 44, 46, 5917] 9 
+%% splitting_tag(xcomp). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 232                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%% Found negative counterexample: ex_0_2 (a total of 186 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 49, 50, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(cc). 
+%% splitting_tag(case). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 233                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+214
+%% Found negative counterexample: ex_0_2 (a total of 205 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 17, 44, 5917] 9 
+%% splitting_tag(quantmod). 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 234                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 76, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 235                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+180
+%% Best hypotesis so far found 
+%% Found negative counterexample: ex_0_2 (a total of 171 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 82, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(dep). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 236                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 67, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(pcomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 237                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+201
+%% Found negative counterexample: ex_0_2 (a total of 192 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 68, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(parataxis). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 238                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+198
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [20, 44, 52, 5917] 9 
+%% splitting_tag(prep). 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 239                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+263
+%% Found negative counterexample: ex_0_2 (a total of 254 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 68, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(parataxis). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 240                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 50, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(case). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 241                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 183 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 76, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(advcl). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 242                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+192
+%% Found negative counterexample: ex_0_2 (a total of 183 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [15, 44, 52, 5917] 9 
+%% splitting_tag(relcl). 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 243                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+199
+%% Found negative counterexample: ex_0_2 (a total of 190 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 84, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(dative). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 244                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 73, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(npadvmod). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 245                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 82, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(dep). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 246                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 48, 52, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(agent). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 247                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+203
+%% Found negative counterexample: ex_0_2 (a total of 194 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [15, 44, 46, 5917] 9 
+%% splitting_tag(relcl). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 248                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+191
+%% Found negative counterexample: ex_0_2 (a total of 182 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 85, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(csubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 249                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+200
+%% Found negative counterexample: ex_0_2 (a total of 191 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 44, 52, 5917] 9 
+%% splitting_tag(quantmod). 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 250                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+198
+%% Found negative counterexample: ex_0_2 (a total of 189 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 69, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(oprd). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 251                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+203
+%% Found negative counterexample: ex_0_2 (a total of 194 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [16, 44, 46, 5917] 9 
+%% splitting_tag(quantmod). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 252                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+190
+%% Found negative counterexample: ex_0_2 (a total of 181 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 46, 69, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% splitting_tag(oprd). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 253                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+197
+%% Found negative counterexample: ex_0_2 (a total of 188 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [44, 52, 71, 5917] 9 
+%% splitting_tag(conj). 
+%% splitting_tag(attr). 
+%% splitting_tag(nsubjpass). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 254                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+212
+%% Found negative counterexample: ex_0_2 (a total of 203 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 67, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(pcomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 255                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+202
+%% Found negative counterexample: ex_0_2 (a total of 193 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_0_2'] 
+%% Found hypothesis: [17, 44, 46, 5917] 9 
+%% splitting_tag(punct). 
+%% splitting_tag(conj). 
+%% splitting_tag(ccomp). 
+%% in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1). 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               Iteration 256                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pre-processing                          : 0.379s
+%% Hypothesis Space Generation             : 0.011s
+%% Conflict analysis                       : 2626.39s
+%%   - Negative Examples                   : 1758.29s
+%%   - Positive Examples                   : 868.098s
+%% Counterexample search                   : 63.121s
+%%   - CDOEs                               : 6.62s
+%%   - CDPIs                               : 56.498s
+%% Hypothesis Search                       : 23666.9s
+%% Propagation                             : 27838.5s
+%%   - CDPIs                               : 27838.5s
+%% Total                                   : 54208.8s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+195
+%%  
+%%  
+%% Final Hypothesis: 
+%%  
+splitting_tag(conj).
+splitting_tag(ccomp).
+splitting_tag(advcl).
+in_atomic_sent(V1) :- not do_not_include(V2); in_atomic_sent(V3); dep(V2, V3, V1).
+

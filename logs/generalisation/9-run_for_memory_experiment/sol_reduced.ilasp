@@ -1,0 +1,45 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 36                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+%% Found positive counterexample: ex_104_0 (a total of 250 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_104_0'] 
+%% Found hypothesis: [123, 141, 190, 223, 382, 495, 1235, 1237, 1727] 29 
+%% in_generalised_sent(V1) :- dep(advmod, V2, V1). 
+%% in_generalised_sent(V1) :- dep(dobj, V2, V1). 
+%% in_generalised_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_generalised_sent(V1) :- dep(neg, V2, V1). 
+%% in_generalised_sent(V1) :- root(V1). 
+%% in_generalised_sent(V1) :- in_generalised_sent(V2); dep(det, V2, V1). 
+%% in_generalised_sent(V1) :- in_generalised_sent(V2); dep(pobj, V2, V1). 
+%% 0 {in_generalised_sent(V1) } 1 :- dep(pobj, V1, V2). 
+%% in_generalised_sent(V1) :- in_generalised_sent(V2); dep(compound, V2, V1). 
+%% Iteration completed after 163.27001547813416 seconds 
+%% Iteration completed at 20:45:30 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                Iteration 35                                %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Searching for counterexample... 
+%% Found negative counterexample: ex_101_2 (a total of 281 counterexamples found) 
+%% Computed constraint. Now propagating to other examples... 
+%% Constraint propagated to: ['ex_101_2'] 
+%% Found hypothesis: [141, 161, 190, 214, 223, 495, 843, 849, 1235, 1353, 1582] 29 
+%% in_generalised_sent(V1) :- dep(dobj, V2, V1). 
+%%  :- not in_generalised_sent(V1); dep(nsubj, V1, V2). 
+%% in_generalised_sent(V1) :- dep(nsubj, V2, V1). 
+%% in_generalised_sent(V1) :- dep(auxpass, V2, V1). 
+%% in_generalised_sent(V1) :- dep(neg, V2, V1). 
+%% in_generalised_sent(V1) :- in_generalised_sent(V2); dep(det, V2, V1). 
+%% 0 {in_generalised_sent(V1) } 1 :- dep(prep, V2, V1). 
+%% 0 {in_generalised_sent(V1) } 1 :- dep(prep, V1, V2). 
+%% in_generalised_sent(V1) :- in_generalised_sent(V2); dep(pobj, V2, V1). 
+%% 0 {in_generalised_sent(V1) } 1 :- dep(amod, V1, V2). 
+%% 0 {in_generalised_sent(V1) } 1 :- dep(amod, V2, V1). 
+%% Iteration completed after 158.08998799324036 seconds 
+%% Iteration completed at 20:45:25 
+

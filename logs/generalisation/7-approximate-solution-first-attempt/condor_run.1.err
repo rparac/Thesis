@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "cmd/evaluate.py", line 112, in <module>
+    g_texts = [[add_punctuation(truecase(sent, spacy_lang)) for sent in sents] for sents in g_texts]
+  File "cmd/evaluate.py", line 112, in <listcomp>
+    g_texts = [[add_punctuation(truecase(sent, spacy_lang)) for sent in sents] for sents in g_texts]
+  File "cmd/evaluate.py", line 112, in <listcomp>
+    g_texts = [[add_punctuation(truecase(sent, spacy_lang)) for sent in sents] for sents in g_texts]
+  File "/homes/rp218/luke-for-roko/concept_processing/nlp/nlp_utils.py", line 31, in add_punctuation
+    if inp[-1] == '.':
+IndexError: string index out of range

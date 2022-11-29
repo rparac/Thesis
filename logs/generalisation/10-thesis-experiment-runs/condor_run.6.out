@@ -1,0 +1,16 @@
+Results for 'The batter hit a popup.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball bounced to the third baseman.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball did not stay in the field of play.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'A ground out isn't an option.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'Hitter didn't swing his bat.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was a ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The center baseman caught the ball for an out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter took a check swing.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The pitch was outside the strike zone.' is jaccard:0.5/precision:0.5/recall:1.0
+Results for 'The hitter hit the ball straight up the middle to the pitcher.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The first baseman caught the ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'He hit it outside the foul lines.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter hit the ball into the air.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 0.8846153846153846
+Average precision score: 0.8846153846153846
+Average recall score: 0.9230769230769231

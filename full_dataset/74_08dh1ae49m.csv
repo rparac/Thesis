@@ -1,0 +1,11 @@
+elapsed,756779,1616882420871,intermediate
+XLMI9HIUDER0,out,This is labeled as a catch because the pitcher threw the ball and the batter hit it towards center field. Then, the center fielder caught it without it falling to the ground.
+WX6OXRKZ5UX4,play,This is labeled as a hit because the pitcher threw the ball and it hit the ground that did not result in the batter being out.
+CYUETAG76F3L,none,This is labeled as none because the video did not load.
+2724R31TSDBP,out,This is labeled as a catch because the pitcher threw the ball and the batter hit it towards right field. The right fielder then caught the ball while in the air, resulting in an out.
+RO4WNI21AF07,foul,This is labeled as a foul because the pitcher threw the ball and the batter hit the ball. However, the ball did not land in the field of play nor was it caught by the opposing team. Additionally, it led to a strike since the batter had no strikes on them.
+JQXB5NGQ881U,ball,This is labeled as a ball because the pitcher threw the ball and the ball was not in the strike zone. Additionally, the batter did not swing at it.
+LMNE1RYBH0IH,strike,This is labeled as a strike because the pitcher threw the ball and it was caught by the catcher in the strike zone.
+DF6OW4I664XQ,play,This is labeled as a hit because the pitcher threw the ball and the batter hit it on the ground, towards the third baseman. However, the resulting play was a double play after the third baseman threw to the second base for a forceout of the runner on first and the second baseman threw to first to forceout the batter.
+CTPE2O5FZBWG,ball,This is labeled as a ball because the pitcher threw the ball and the catcher caught the ball outside of the strikezone. Additionally, the batter did not swing at it.
+N8CWJQY1DS20,foul,This is labeled as a foul because the pitcher threw the ball and the batter hit the ball but it was within the field of play. Additionally, no strike was added since the batter already had 2 strikes on them.

@@ -1,0 +1,507 @@
+manual_id,final_id,group_id,start_id,freq,text
+0,0,16,135,57, The batter didn't swing.
+0,0,16,392,7, Batter did not swing.
+0,0,16,403,7, The batter did nt swing.
+0,0,16,45,202, The batter did not swing.
+1,1,26,266,9, Batter missed.
+1,1,26,30,14, The batter missed it.
+1,1,26,42,98, The batter missed.
+2,2,0,17,224, The batter swung.
+3,2,0,179,3, The batter hit the ball with the bat.
+3,2,0,19,91, The batter hit it.
+3,2,0,191,10, The batter hit a ball.
+3,2,0,195,14, Batter hit the ball.
+3,2,0,196,3, The batter hit ball.
+2,2,0,238,10, The batter swung the bat.
+3,2,0,251,3, The batter hit the ball in play.
+2,2,0,257,4, The batter swung at it.
+3,2,0,264,5, Batter hit it.
+2,2,0,265,14, Batter swung.
+2,2,0,284,3, The batter swung at a pitch.
+3,2,0,326,9, The batter hit the ball for a ball.
+3,2,0,328,3, The batter hit the ball for a hit.
+2,2,0,330,6, The batter swung contact.
+2,2,0,331,6, The batter swung at the ball contact.
+3,2,0,339,7, The batter hits the ball.
+2,2,0,365,3, The batter swung the ball.
+2,2,0,39,28, The batter swung at the pitch.
+3,2,0,404,8, Batter hit ball.
+3,2,0,426,3, The batter hit it for a hit.
+2,2,0,460,6, The batter swung bat.
+2,2,0,461,6, The batter swung his bat.
+2,2,0,462,3, The batter swung bat at the ball.
+2,2,0,463,3, The batter swung his bat at the ball.
+3,2,0,61,401, The batter hit the ball.
+3,2,0,63,11, The batter hit.
+3,2,0,76,8, The batter hit the ball into play.
+2,2,0,88,16, The batter swung at the ball.
+4,3,23,144,10, That was caught.
+4,3,23,2,78, It was caught.
+4,3,23,242,13, Which was caught.
+5,4,220,208,24, The batter missed the ball.
+6,5,31,105,72, The batter hit the ball on the ground.
+6,5,31,150,7, The batter hit it on the ground.
+7,6,49,31,128, It was.
+7,6,49,494,4, It is.
+8,7,24,429,3, It was hit on the ground.
+8,7,24,448,4, Which hit the ground.
+8,7,24,71,51, It hit the ground.
+9,8,1,162,18, The batter hit the ball into foul territory.
+9,8,1,175,4, The batter hit the ball into the stands in foul territory.
+9,8,1,178,5, The batter hit the ball in foul territory.
+9,8,1,21,14, The batter hit it into foul territory.
+9,8,1,424,3, The batter hit it in foul territory.
+6,9,335,80,30, The batter hit a ground ball.
+10,10,15,117,9, It is a ball.
+10,10,15,157,3, Which is a ball.
+10,10,15,22,15, It was a ball.
+10,10,15,437,5, It's a ball.
+10,10,15,471,5, This is a ball.
+10,10,15,51,16, It a ball.
+11,11,22,204,3, Batter made contact.
+11,11,22,353,3, The batter made some contact.
+11,11,22,92,85, The batter made contact.
+12,12,289,74,90, The ball was.
+13,13,81,427,5, It is a strike.
+13,13,81,67,26, It was a strike.
+14,14,320,16,23, The umpire called it a strike.
+15,15,85,250,10, The batter hit the ball into the air.
+15,15,85,345,3, Batter hit the ball in the air.
+15,15,85,78,42, The batter hit the ball in the air.
+16,16,38,231,5, Ball was hit.
+16,16,38,232,4, Ball hit.
+16,16,38,379,3, The ball is hit.
+16,16,38,47,41, The ball was hit.
+17,17,358,172,27, The fielder caught the ball.
+18,18,2,192,6, The batter hit the ball foul.
+18,18,2,289,6, The batter hit a foul ball.
+18,18,2,327,9, The batter hit the ball for a foul ball.
+19,19,258,55,73, It went.
+20,20,40,134,15, The ball was in the strike zone.
+20,20,40,329,5, The ball landed in the strike zone.
+3,21,352,186,28, The hitter hit the ball.
+21,22,286,0,11, Who caught the ball.
+22,23,192,24,45, The ball went.
+23,24,309,79,29, It landed.
+24,25,346,11,44, The ball landed.
+25,26,304,240,30, It was hit.
+25,26,304,96,6, It was a hit.
+26,27,14,130,9, The outfielder caught the ball.
+26,27,14,369,3, The outfield player caught the ball.
+26,27,14,370,3, The outfield player caught the ball His.
+27,28,341,125,15, It was in the strike zone.
+28,29,264,37,23, The umpire called it a ball.
+29,30,306,183,9, The fielder caught it.
+30,31,97,252,9, The ball was caught.
+31,32,78,143,16, It bounced.
+31,32,78,457,3, Which bounced.
+32,33,283,98,7, The batter did not make contact.
+33,34,6,123,4, It went out of the strike zone.
+33,34,6,133,12, It was out of the strike zone.
+33,34,6,213,3, That was out of the strike zone.
+33,34,6,278,3, Out of the strike zone.
+33,34,6,290,3, It was out of strike zone.
+-1,35,115,300,19, This is labeled.
+-1,36,351,6,15, The hitter swung.
+-1,37,44,359,4, The ball wasn't caught.
+-1,37,44,95,10, The ball was not caught.
+-1,38,357,140,11, He swung.
+-1,39,353,34,6, The outfielder caught it.
+-1,40,46,245,12, The ball flew.
+-1,40,46,246,3, The ball flew in the air.
+-1,41,129,35,13, The batter hit a fly ball.
+-1,41,129,393,4, Batter hit a fly ball.
+-1,42,281,13,21, The pitch was.
+-1,43,127,115,16, The ball crossed the plate.
+-1,44,277,49,11, It was not caught.
+-1,45,67,384,6, A ball settled on foul territory.
+-1,46,27,124,7, The batter was.
+-1,46,27,230,10, The batter is.
+-1,47,50,180,7, The ball hit the ground.
+-1,47,50,378,3, The ball was hit on the ground.
+-1,48,331,4,6, Resulting in a ball.
+-1,49,151,215,3, The pitcher threw a ball.
+-1,49,151,227,36, The pitcher threw the ball.
+-1,49,151,325,3, Pitcher threw the ball.
+-1,49,151,335,4, The pitcher threw.
+-1,50,266,197,5, The batter caught the ball.
+-1,51,172,217,9, The umpire called the pitch a ball.
+-1,52,334,205,5, The center fielder caught it.
+-1,53,158,138,8, It touched the ground.
+-1,54,188,28,4, The batter flew out to center.
+-1,55,131,406,6, It landed in the strike zone.
+-1,56,148,352,7, The umpire ruled it a strike.
+-1,57,20,255,4, The batter hit it into field.
+-1,57,20,319,12, The batter hit the ball into field.
+-1,57,20,322,10, The batter hit the ball out of play.
+-1,57,20,401,7, The batter hit the ball to field.
+-1,57,20,428,4, The batter hit it out of play.
+-1,57,20,442,5, The batter hit the ball out of the field.
+-1,57,20,443,5, The batter hit the ball out of the field of play.
+-1,57,20,449,4, The batter hit the ball outside of the field for a ball.
+-1,57,20,451,4, The batter hit the ball outside of the field of play for a ball.
+-1,57,20,484,3, The batter hit the ball out of the field for a ball.
+-1,57,20,486,3, The batter hit the ball out of the field of play for a ball.
+-1,57,20,69,6, The batter hit it to field.
+-1,57,20,83,7, The batter hit the ball into the field.
+-1,57,20,84,6, The batter hit the ball into the field of play.
+-1,57,20,86,8, The batter hit the ball outside of the field.
+-1,57,20,87,8, The batter hit the ball outside of the field of play.
+-1,58,223,286,6, The pitch was called a strike.
+-1,59,294,94,7, Out of play.
+-1,60,191,101,13, It was fielded.
+-1,61,37,139,4, He hit.
+-1,61,37,33,8, He hit it.
+-1,62,47,416,11, The pitch was called a ball.
+-1,63,34,254,4, The ball crossed home plate.
+-1,63,34,491,4, The ball crossed the home plate area.
+-1,64,90,434,3, The ball was in foul territory.
+-1,65,174,249,12, The ball bounced.
+-1,66,114,338,6, The batter leaves the ball.
+-1,67,12,296,6, The batter's swing connected.
+-1,67,12,297,6, The batter's swing connected with the ball.
+-1,68,99,270,11, Who caught it.
+-1,69,126,276,4, It passed through the strike zone.
+-1,70,25,497,3, It was a single.
+-1,71,251,43,10, It a strike.
+-1,72,19,60,5, The ball went into the strike zone.
+-1,72,19,97,3, The ball went through the strike zone.
+-1,73,225,75,5, It crossed the plate.
+-1,74,53,168,8, The hitter did not swing.
+-1,74,53,181,3, The hitter didn't swing.
+-1,75,177,104,3, The ball did not cross the plate inside of the strike zone.
+-1,76,74,367,3, The umpire didn't call it a strike.
+-1,77,9,323,3, The batter hit a home run.
+-1,77,9,337,3, The batter hit the ball for a home run.
+-1,-1,10,111,10, The batter hit the ball to the third baseman.
+-1,-1,10,112,9, The batter hit the ball on the ground to the third baseman.
+-1,-1,10,147,5, The batter hit a ground ball to the third baseman.
+-1,-1,100,502,3, Which went.
+-1,-1,101,280,3, The batter took a pitch.
+-1,-1,101,399,5, The batter took the pitch.
+-1,-1,102,202,3, It went out of play.
+-1,-1,102,503,3, Which went out of play.
+-1,-1,103,354,3, The batter failed the ball.
+-1,-1,104,441,3, The ball was in the center.
+-1,-1,105,411,4, It was caught by the left fielder.
+-1,-1,106,381,6, A batted ball settled.
+-1,-1,107,438,3, Landed in the zone.
+-1,-1,108,398,3, The ball ended up.
+-1,-1,109,308,3, The ball was not in the strike zone.
+-1,-1,11,118,4, It is a foul ball.
+-1,-1,11,129,9, It a foul ball.
+-1,-1,11,23,5, It was a foul ball.
+-1,-1,11,440,3, It's a foul ball.
+-1,-1,11,472,4, This is a foul ball.
+-1,-1,110,364,3, You don't have hit as an option.
+-1,-1,111,336,3, It was fielded by the shortstop.
+-1,-1,112,166,5, The ball was thrown.
+-1,-1,113,380,6, A ball settled.
+-1,-1,116,229,6, The catcher caught it.
+-1,-1,117,210,6, It counts as a strike.
+-1,-1,118,360,3, The ball wasn't caught for an out.
+-1,-1,119,377,3, The batter hit a fly ball to right field.
+-1,-1,120,420,6, It was caught in the air by the fielder.
+-1,-1,121,340,3, It goes wide.
+-1,-1,122,412,3, The ball was a strike.
+-1,-1,123,348,9, The pitch crossed the plate.
+-1,-1,124,241,5, Which resulted.
+-1,-1,125,279,3, The umpire called it as a strike.
+-1,-1,128,203,6, It went into the stands.
+-1,-1,13,458,4, The baseman threw it to the baseman.
+-1,-1,13,459,3, The baseman threw it to the first baseman.
+-1,-1,130,256,3, The batter hit it into left field.
+-1,-1,130,320,3, The batter hit the ball into left field.
+-1,-1,130,435,3, The batter hit the ball to left field.
+-1,-1,130,70,3, The batter hit it to left field.
+-1,-1,132,375,3, The umpire called the pitch a strike.
+-1,-1,133,422,8, The batter hit a line drive.
+-1,-1,134,385,6, A batted ball settled on foul territory.
+-1,-1,135,344,4, It was caught by the outfielder.
+-1,-1,136,376,3, It was above the strike zone.
+-1,-1,137,470,3, It was out of the field of play.
+-1,-1,138,477,4, Who threw the ball.
+-1,-1,139,260,7, Who threw to base.
+-1,-1,140,302,6, This is labeled as a foul.
+-1,-1,141,268,4, Who threw it.
+-1,-1,142,299,3, The batter got on base.
+-1,-1,143,190,6, The left fielder caught the ball.
+-1,-1,144,466,4, It would not matter.
+-1,-1,145,415,3, The hitter was thrown out.
+-1,-1,146,313,8, The baseman caught the ball.
+-1,-1,147,193,8, It was caught for an out.
+-1,-1,147,36,4, It was caught for the out.
+-1,-1,149,244,8, It was caught by the catcher.
+-1,-1,150,333,5, The umpire called a strike.
+-1,-1,152,274,4, The ball was caught in the air.
+-1,-1,153,391,3, A batted ball fell over foul territory.
+-1,-1,154,447,4, The fielder caught the ball in the air.
+-1,-1,155,395,7, He missed.
+-1,-1,156,282,6, The batter hit a fly ball to field.
+-1,-1,157,200,4, The batter hit it in the air.
+-1,-1,157,68,4, The batter hit it into the air.
+-1,-1,159,188,5, The batter hit the ball to the fielder.
+-1,-1,160,292,3, Who threw to base for the out.
+-1,-1,161,316,3, It was caught by the catcher outside of the strike zone.
+-1,-1,162,405,3, Which was picked up.
+-1,-1,163,455,3, He grounded out.
+-1,-1,164,468,3, It had been in the strike zone.
+-1,-1,165,342,3, It goes wide to the left of the batter.
+-1,-1,166,425,5, The ball was over the plate.
+-1,-1,167,154,3, Who threw the batter out.
+-1,-1,168,350,5, It was caught by the right fielder.
+-1,-1,169,311,4, The catcher dropped the ball.
+-1,-1,17,132,23, The batter did not swing at the ball.
+-1,-1,17,136,7, The batter didn't swing at it.
+-1,-1,17,199,31, The batter did not swing at the pitch.
+-1,-1,17,436,3, The batter did not swing at a pitch.
+-1,-1,17,73,17, The batter did not swing at it.
+-1,-1,170,366,5, The umpire indicated.
+-1,-1,171,465,4, It went into foul territory.
+-1,-1,173,478,3, The batter hit the ball in the air in territory.
+-1,-1,175,275,4, It passed.
+-1,-1,176,253,3, The fielder could catch it.
+-1,-1,178,239,5, Which landed.
+-1,-1,179,444,4, Which contacted the screen.
+-1,-1,18,109,23, The batter hit the ball to the baseman.
+-1,-1,18,317,8, The batter hit the ball to the second baseman.
+-1,-1,180,474,3, The ball landed by the batter.
+-1,-1,181,301,4, This is labeled as a catch.
+-1,-1,182,417,8, The pitch was called a ball by the umpire.
+-1,-1,183,18,3, The batter missed the pitch.
+-1,-1,184,152,5, Into center field.
+-1,-1,185,363,3, You don't have hit.
+-1,-1,186,247,3, The fielder fielded the ball.
+-1,-1,187,312,3, It was not in play.
+-1,-1,189,400,6, The ball was below the strike zone.
+-1,-1,190,53,3, The pitch was not in the strike zone.
+-1,-1,193,145,4, Who threw him out.
+-1,-1,194,159,4, It was caught by the baseman.
+-1,-1,195,72,6, The ball crossed.
+-1,-1,196,243,5, The batter hit a pop up.
+-1,-1,197,116,6, It was outside.
+-1,-1,198,58,4, It was not in the strike zone.
+-1,-1,199,103,3, The ball did not cross the plate.
+-1,-1,200,226,4, The hitter missed.
+-1,-1,201,439,3, Landed in the fair zone.
+-1,-1,202,464,5, It went into territory.
+-1,-1,203,358,3, A player in the field was.
+-1,-1,204,386,3, A ball fell.
+-1,-1,205,481,4, The batter was caught.
+-1,-1,206,216,3, The ball was outside of the strike zone.
+-1,-1,206,368,9, The ball was outside the strike zone.
+-1,-1,207,142,5, The third baseman caught it.
+-1,-1,208,1,8, Who caught the ball in the air.
+-1,-1,209,269,4, An out was recorded.
+-1,-1,21,126,17, It was outside the strike zone.
+-1,-1,21,164,4, It was outside of the strike zone.
+-1,-1,210,433,3, The ball was in territory.
+-1,-1,211,410,4, It was out of bounds.
+-1,-1,212,389,3, A batted ball fell over territory.
+-1,-1,213,169,3, The ball was hit out.
+-1,-1,214,314,4, The first baseman caught the ball.
+-1,-1,215,341,3, It goes wide to the left.
+-1,-1,216,347,5, It did not cross the plate in the strike zone.
+-1,-1,217,361,3, The ball landed in play.
+-1,-1,218,27,4, The batter flew out.
+-1,-1,219,214,4, It bounced on the ground.
+-1,-1,221,346,6, It did not cross the plate.
+-1,-1,222,293,3, Who threw to first base for the out.
+-1,-1,224,99,3, The ball did not go.
+-1,-1,226,148,3, The batter did swing.
+-1,-1,227,64,6, It was a home run.
+-1,-1,228,158,8, The batter hit the ball into the stands.
+-1,-1,229,59,4, The ball was called a ball.
+-1,-1,230,81,6, The ball was fielded.
+-1,-1,231,165,3, The batter made it.
+-1,-1,232,272,6, The umpire called it.
+-1,-1,233,167,9, It was below the strike zone.
+-1,-1,234,128,5, The batter did not make contact with the ball.
+-1,-1,235,131,3, It did not go.
+-1,-1,236,163,3, It was a ground ball.
+-1,-1,237,160,5, The umpire ruled.
+-1,-1,238,91,7, The ball went out of play.
+-1,-1,239,194,3, The batter hit the ball to he.
+-1,-1,240,294,6, Swing connected.
+-1,-1,241,9,3, Who fielded the ball.
+-1,-1,242,171,3, The ball was hit out to left field.
+-1,-1,243,206,3, The center fielder caught it for an out.
+-1,-1,244,156,3, Who threw the batter out at first base.
+-1,-1,245,288,3, The pitch was out of the strike zone.
+-1,-1,246,198,10, The batter made contact with the pitch.
+-1,-1,247,119,21, It was caught in the air.
+-1,-1,248,271,3, Who caught it for an out.
+-1,-1,249,40,5, The hitter hit a line drive.
+-1,-1,250,113,6, The ball was called a strike.
+-1,-1,252,237,3, The pitch was in the strike zone.
+-1,-1,253,89,4, The umpire determined.
+-1,-1,254,261,4, Who threw to first base.
+-1,-1,255,3,3, It was thrown.
+-1,-1,256,56,3, It went into the strike zone.
+-1,-1,257,176,9, The batter was thrown out.
+-1,-1,259,54,4, To the baseman.
+-1,-1,260,432,4, The pitch went.
+-1,-1,261,387,3, A batted ball fell.
+-1,-1,262,421,4, It was caught in the air by the right fielder.
+-1,-1,263,127,4, This makes.
+-1,-1,265,121,9, It was caught in the air by the center fielder.
+-1,-1,267,388,3, A ball fell over territory.
+-1,-1,268,207,3, The ball got.
+-1,-1,269,224,4, The ball was hit to the baseman.
+-1,-1,270,349,3, The pitch crossed the plate inside of the strike zone.
+-1,-1,271,107,3, The batter hit the ball to the short stop.
+-1,-1,272,267,3, The pitch was outside the strike zone.
+-1,-1,273,5,5, Resulting in a called ball.
+-1,-1,274,93,33, The batter made contact with the ball.
+-1,-1,275,233,4, No one caught it.
+-1,-1,276,445,4, Which contacted the screen behind home plate.
+-1,-1,278,201,3, The umpire ruled the pitch a ball.
+-1,-1,279,10,4, Who threw the runner out.
+-1,-1,28,488,3, The baseman threw him out.
+-1,-1,280,212,4, That was.
+-1,-1,282,52,4, The pitch was not.
+-1,-1,284,262,4, The batter got.
+-1,-1,285,185,4, The umpire judged.
+-1,-1,287,57,10, It was not.
+-1,-1,288,90,11, The ball was out of the strike zone.
+-1,-1,29,450,4, The batter hit the ball outside of the field for a foul ball.
+-1,-1,29,452,4, The batter hit the ball outside of the field of play for a foul ball.
+-1,-1,29,485,3, The batter hit the ball out of the field for a foul ball.
+-1,-1,29,487,3, The batter hit the ball out of the field of play for a foul ball.
+-1,-1,290,221,3, The shortstop threw the ball.
+-1,-1,291,374,3, The batter tipped the ball.
+-1,-1,292,283,3, The batter hit a fly ball to left field.
+-1,-1,293,41,3, The shortstop caught the ball.
+-1,-1,295,258,5, It fell.
+-1,-1,296,211,3, It counts as a ball.
+-1,-1,297,114,6, The ball was called a strike by the umpire.
+-1,-1,298,285,5, The batter hit the pitch.
+-1,-1,299,65,3, The ball traveled.
+-1,-1,3,173,12, The right fielder caught the ball.
+-1,-1,3,343,3, The right fielder caught it.
+-1,-1,30,493,3, The batter went.
+-1,-1,300,29,4, The centerfielder caught the ball.
+-1,-1,301,106,3, The batter hit the ball to the stop.
+-1,-1,302,324,4, It was called a ball by the umpire.
+-1,-1,303,153,3, To the third baseman.
+-1,-1,305,259,7, Who threw.
+-1,-1,307,307,4, The ball was not.
+-1,-1,308,303,3, The ball did not land.
+-1,-1,310,315,3, It was caught outside of the strike zone.
+-1,-1,311,77,10, The batter reached base.
+-1,-1,312,32,3, It was out of play.
+-1,-1,313,184,4, The ball was inside the strike zone.
+-1,-1,314,25,3, The ball went into territory.
+-1,-1,315,373,4, The hitter missed the ball.
+-1,-1,316,383,6, A batted ball settled on territory.
+-1,-1,317,44,4, The batter fouled it.
+-1,-1,318,137,4, The batter hit it out of bounds.
+-1,-1,319,108,13, The batter missed for a strike.
+-1,-1,32,100,3, The ball did not go through the strike zone.
+-1,-1,32,496,9, The ball was not thrown through the strike zone.
+-1,-1,321,38,13, It was called a ball.
+-1,-1,322,209,10, It counts.
+-1,-1,323,141,10, The baseman caught it.
+-1,-1,324,218,4, The center fielder caught the ball.
+-1,-1,325,287,5, The pitch was called a strike by the umpire.
+-1,-1,326,120,18, It was caught by the center fielder.
+-1,-1,327,14,3, The pitch was inside.
+-1,-1,328,407,5, The baseman threw it.
+-1,-1,329,306,3, This is labeled as a ball.
+-1,-1,33,504,3, It is a foul.
+-1,-1,330,332,3, The ball was not caught by a defender.
+-1,-1,332,48,3, This ball was hit.
+-1,-1,333,382,6, A ball settled on territory.
+-1,-1,336,149,5, The batter fouled off the pitch.
+-1,-1,337,151,7, Into field.
+-1,-1,338,310,4, It went over the plate.
+-1,-1,339,26,3, The ball went into foul territory.
+-1,-1,340,155,3, Who threw the batter out at base.
+-1,-1,342,85,3, The ball landed on the ground.
+-1,-1,343,187,3, It was inside.
+-1,-1,344,234,3, The batter did not hit it.
+-1,-1,345,174,4, The batter hit the ball into the stands in territory.
+-1,-1,347,12,3, The ball landed outside the strike zone.
+-1,-1,348,15,4, The batter hit a grounder.
+-1,-1,349,189,3, The batter hit the ball to the left fielder.
+-1,-1,35,222,3, The shortstop threw the ball to the baseman.
+-1,-1,35,223,3, The shortstop threw the ball to the first baseman.
+-1,-1,350,82,5, This resulted.
+-1,-1,354,182,5, The hitter hit it.
+-1,-1,355,66,6, The umpire signaled.
+-1,-1,356,46,8, This is a strike.
+-1,-1,359,298,4, It hit the dirt.
+-1,-1,36,273,13, It was caught by the fielder.
+-1,-1,36,281,3, Which was caught by the fielder.
+-1,-1,360,409,4, The batter took a swing.
+-1,-1,361,102,3, The ball was called a ball by the umpire.
+-1,-1,362,396,4, He hit the ball.
+-1,-1,363,219,8, The batter hit the ball to the shortstop.
+-1,-1,39,476,3, The batter drove the ball.
+-1,-1,4,170,3, The ball was hit out to field.
+-1,-1,4,235,4, The ball was hit into the field.
+-1,-1,4,236,4, The ball was hit into the field of play.
+-1,-1,41,20,14, The batter hit it into territory.
+-1,-1,41,423,3, The batter hit it in territory.
+-1,-1,42,161,18, The batter hit the ball into territory.
+-1,-1,42,177,6, The batter hit the ball in territory.
+-1,-1,43,501,4, With the ball.
+-1,-1,45,498,4, It did not land.
+-1,-1,48,321,3, The batter reached first base.
+-1,-1,5,228,3, The hitter hit the ball on the ground.
+-1,-1,5,50,3, The hitter hit a ground ball.
+-1,-1,51,454,6, The umpire ruled it a ball.
+-1,-1,52,430,7, It was hit out of bounds.
+-1,-1,54,480,3, The ball was hit in the air.
+-1,-1,55,453,3, It was fielded by the pitcher.
+-1,-1,56,263,4, It is not a strike.
+-1,-1,56,8,4, It was not a strike.
+-1,-1,57,431,3, It was hit into the air.
+-1,-1,58,419,4, The pitch did not cross the plate inside of the strike zone.
+-1,-1,59,505,3, The umpire caught it.
+-1,-1,60,122,21, The batter hit the ball to the outfield.
+-1,-1,60,62,14, The batter hit the ball into the outfield.
+-1,-1,61,469,3, It was out of the field.
+-1,-1,62,357,3, A player was.
+-1,-1,63,248,4, The baseman threw the ball.
+-1,-1,63,309,3, The baseman threw.
+-1,-1,64,277,4, The batter hit it to center field.
+-1,-1,64,394,6, The batter hit the ball into center field.
+-1,-1,65,489,3, It crossed.
+-1,-1,66,446,4, Which making.
+-1,-1,68,492,3, The ball crossed the home plate area outside of the strike zone.
+-1,-1,69,473,3, The Hitter Swang at a pitch.
+-1,-1,7,110,20, The batter hit the ball on the ground to the baseman.
+-1,-1,7,146,8, The batter hit a ground ball to the baseman.
+-1,-1,7,220,6, The batter hit the ball on the ground to the shortstop.
+-1,-1,7,291,6, The batter hit a ground ball to the shortstop.
+-1,-1,7,318,8, The batter hit the ball on the ground to the second baseman.
+-1,-1,70,467,3, It had been.
+-1,-1,71,475,3, The pitch went through the strike zone.
+-1,-1,72,483,3, The umpire did not signal for a strike.
+-1,-1,73,355,3, The batter failed to put the ball into the field.
+-1,-1,73,356,3, The batter failed to put the ball into the field of play.
+-1,-1,75,304,3, The ball did not land in the field.
+-1,-1,75,305,3, The ball did not land in the field of play.
+-1,-1,76,499,4, It did not land in the field.
+-1,-1,77,500,4, It did not land in the field of play.
+-1,-1,79,362,3, The ball landed in fair play.
+-1,-1,8,456,5, Outside the strike zone.
+-1,-1,8,7,8, Outside of the strike zone.
+-1,-1,80,414,4, The hitter fouled the ball.
+-1,-1,82,490,3, The ball crossed the strike zone.
+-1,-1,83,371,3, The outfield player caught the ball in mitt.
+-1,-1,83,372,3, The outfield player caught the ball in his mitt.
+-1,-1,84,482,3, The umpire did not signal.
+-1,-1,86,351,3, The batter hit the ball into right field.
+-1,-1,86,402,3, The batter hit the ball to right field.
+-1,-1,87,334,3, Which was.
+-1,-1,88,390,3, A ball fell over foul territory.
+-1,-1,89,479,3, The batter hit the ball in the air in foul territory.
+-1,-1,91,408,3, The second baseman threw it.
+-1,-1,92,413,4, The batter took a ball.
+-1,-1,93,418,5, The pitch did not cross the plate.
+-1,-1,94,495,9, The ball was not thrown.
+-1,-1,95,397,3, The batter popped the ball up.
+-1,-1,96,225,4, The hitter hit a fly ball.
+-1,-1,98,295,6, Swing connected with the ball.

@@ -1,0 +1,11 @@
+elapsed,656272,1616883173595,intermediate
+OICEA5WB9KV2,ball,The ball did not go through the strike zone and the batter did not swing. This makes it a ball.
+QS9Z59ALPE2Y,strike,The batter swung and did not make contact with the ball. This makes it a strike.
+WS3BGRQMT1K7,ball,The ball did not go through the strike zone. The batter did not swing making it a ball.
+7377JZNUYFNO,foul,The batter made contact with the ball but the ball did not end up in the field of play. This makes it a foul ball.
+Z34QAQ7FU8UT,out,The batter made contact with the ball and sent it into left field, but the outfielder caught the ball before it hit the ground.
+M2X3H2NMV475,out,The batter made contact with the ball and sent it into the outfield. The outfielder caught it before it hit the ground.
+M8VZ961CGKNT,foul,The batter made contact with the ball but it did not go into the field of play. 
+9IAIP1M2GEL3,ball,The batter did not swing at the ball. The ball could have interpreted to be in or out of the strike zone on that play, but it seemed to be outside of the zone so it is a ball.
+2CEC7WY2M7LI,strike,The batter swung at the ball and did not make any contact, even though it was out of the strike zone. This makes it a ball.
+87QCVF56ESIP,strike,The ball went through the strike zone and into the catcher's glove.

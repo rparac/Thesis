@@ -1,0 +1,15 @@
+
+conds(foul) :- concept(9), concept(2).
+conds(foul) :- concept(13), concept(9).
+conds(foul) :- concept(1), concept(9).
+conds(strike) :- concept(14), concept(15).
+conds(play) :- concept(18).
+conds(strike) :- concept(8), concept(1).
+conds(strike) :- concept(67), concept(0), concept(13), concept(9).
+conds(foul) :- concept(14), concept(4).
+conds(out) :- concept(68), concept(11).
+conds(out) :- concept(2).
+conds(strike) :- concept(8), concept(9).
+conds(out) :- concept(67), concept(18).
+
+#show selected/1.

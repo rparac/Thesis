@@ -1,0 +1,16 @@
+Results for 'The batter hit it to left center field.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The fielder caught the ball for an out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The pitcher threw the ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The umpire ruled that the batter did not swing.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The first base umpire declared that the batter did not take a full swing.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It crossed into foul territory before landing.' is jaccard:0.5/precision:1.0/recall:0.5
+Results for 'The batted ball landed in shallow center field.' is jaccard:0.75/precision:0.75/recall:1.0
+Results for 'The first baseman caused the batter to be out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'This makes it a foul ball.' is jaccard:0.5/precision:0.5/recall:1.0
+Results for 'The ball went through the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The first base umpire had a better view.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'Atulve's batted ball landed in the right field grass for a hit.' is jaccard:0.5/precision:1.0/recall:0.5
+Results for 'A home run was hit out of the playing grounds.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 0.6346153846153846
+Average precision score: 0.7115384615384616
+Average recall score: 0.6923076923076923

@@ -1,0 +1,11 @@
+elapsed,556261,1617233611855,advanced
+K7ZTLKEYR0CI,foul,This is labeled as a foul because the pitcher threw the ball and the batter fouled off the pitch.
+I1NREMUXW128,foul,This is labeled as a foul because the pitcher threw the ball and the batter fouled off the pitch.
+3X2UIIW3NMV4,play,This is labeled as a ground ball or hit because the pitcher threw the ball and the batter hit a ground ball off the shortstop's glove.
+5X2634WBJJ61,foul,This is labeled as a foul because the pitcher threw the ball and the batter hit a foul ball near the third base line.
+CTX3I48W0YZZ,ball,This is labeled as a ball because the pitcher threw the ball and the pitch was called a ball, landing low and outside off the plate.
+Y1RBTDQEN568,out,This is labeled as a catch because the pitcher threw the ball and the hitter hit a fly ball to the left fielder, who caught the ball for the out.
+QSNETIT5XR4Q,out,This is labeled as a catch because the pitcher threw the ball and the batter hit a line drive to the center fielder who caught the ball for an out.
+L6E4TCSLF9HZ,foul,This is labeled as a foul because the pitcher threw the ball and the hitter fouled off the pitch to the left side.
+Z472YXTQSMZM,strike,This is labeled as a strike because the pitcher threw the ball and the batter swung and missed, striking out.
+GYG2KOO459B2,play,This is labeled as a ground ball because the pitcher threw the ball and the batter bunted the ball towards the left side of the field. The shortstop or third baseman fielded the ball and threw the batter out at first.

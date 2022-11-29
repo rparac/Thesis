@@ -1,0 +1,16 @@
+Results for 'This is a ground out.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'A home run was hit out of the playing grounds.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter hit the ball on the ground to the shortstop.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The center baseman caught the ball for an out.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball was caught in the air.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The pitch was outside the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball was not thrown through the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball was caught by the first baseman.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was hit to the 3rd base.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'It was caught.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The pitch crossed the plate over the top of the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter hit the ball into the air.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball was outside the strike zone.' is jaccard:0.0/precision:0.0/recall:0.0
+Average jaccard score: 0.0
+Average precision score: 0.0
+Average recall score: 0.0

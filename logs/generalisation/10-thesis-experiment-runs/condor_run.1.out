@@ -1,0 +1,16 @@
+Results for 'The batter did not hit the ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter missed the ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'A home run was hit out of the playing grounds.' is jaccard:0.6666666666666666/precision:1.0/recall:0.6666666666666666
+Results for 'The batter's swing connected with the ball.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter hit the ball on the ground to the shortstop.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter popped it to shallow center.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batted ball landed for a hit.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The pitch crossed the plate inside of the strike zone.' is jaccard:0.3333333333333333/precision:0.5/recall:0.5
+Results for 'The pitcher caught it.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The shortstop threw to the runner at first.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter connected with the ball.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball was not caught by the outfielder.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball was outside the strike zone.' is jaccard:0.5/precision:0.5/recall:1.0
+Average jaccard score: 0.7307692307692307
+Average precision score: 0.7692307692307693
+Average recall score: 0.782051282051282

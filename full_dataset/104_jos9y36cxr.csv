@@ -1,0 +1,11 @@
+elapsed,876777,1617234032725,advanced
+11I2DOTYYIU2,strike,..the batter swung his bat at the ball, but did not hit it at all. That makes it a strike regardless of where the pitch is located.
+MRP2EAZJL6EU,foul,...the batter swung at it and hit the ball with his bat. However, it went into foul territory, towards the dugout.
+JE7Q03R6QR9Q,foul,...the batter swung at the ball and hit it. However, it was not hit into fair territory. It went in the air backwards, landing in the stands somewhere behind home plate.
+NNYACZC84ESF,play,...the batter hit the ball with his bat, and it went into fair territory. The ball bounced once or twice before the fielder caught it with his glove, making it a ground ball rather than a fly ball.
+DKL1ZISRGL1Y,out,...the batter hit the ball and it was caught by a fielder before it hit the ground. The ball was in foul territory, but it still would be recorded as a fly out.
+EWXAJGHB0T2K,strike,...the batter did not swing his bat, but the pitch was in the strike zone. The ball was directly above home plate. It was also at a height below the batter's armpits but above his knees.
+2773P63P1ELQ,ball,...the batter did not swing at the pitch with his bat, and the ball was outside the strike zone. Specifically, the pitched ball was both outside (not over the plate) and low (below the level of the batter's knees). Either of these conditions would make it a ball rather than a strike.
+259H7C6OWTDT,play,...the batter swung his bat and hit the ball. The ball landed in fair territory (between the first and third base lines) and bounced a few times before a fielder caught it, making it a ground ball.
+G0JLNDQCDOTI,play,...the batter swung at the pitch and hit the ball into the outfield, in fair territory. The ball was not grabbed by a fielder until it bounced off the ground.
+MLIJUX5S1AOG,foul,...the batter swung his bat and connected with the pitch. The ball went down and bounced backwards, behind the catcher, making it a foul ball.

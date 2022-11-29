@@ -1,0 +1,4 @@
+
+selected(invalid) :- neq(V0,V1), neq(V1,V0), row(V0,V3), value(V0,V2), value(V1,V2), row(V1,V3), cell(V0), cell(V1), num(V2), row(V3).
+
+

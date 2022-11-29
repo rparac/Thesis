@@ -1,0 +1,2 @@
+in_atomic_sent(V1) :- dep(_, V1, V2).
+in_atomic_sent(V2) :- dep(_, V1, V2).

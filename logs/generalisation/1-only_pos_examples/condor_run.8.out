@@ -1,0 +1,25 @@
+Jaccard score for 'The batter missed the ball.' is 0.05555555555555555
+Jaccard score for 'The pitcher caught it.' is 0.08333333333333333
+Jaccard score for 'The batter connected with the ball.' is 0.0
+Jaccard score for 'The third baseman threw to second base.' is 0.0625
+Jaccard score for 'The third baseman threw to second base.' is 0.0
+Jaccard score for 'The third baseman threw to second base.' is 0.0625
+Jaccard score for 'The third baseman threw to second base.' is 0.0625
+Jaccard score for 'The third baseman threw to second base.' is 0.0625
+Jaccard score for 'The third baseman threw to second base.' is 0.0625
+Jaccard score for 'It was a home run.' is 0.0625
+Jaccard score for 'This is labeled as a catch.' is 0.08333333333333333
+Jaccard score for 'This is labeled as a catch.' is 0.08333333333333333
+Jaccard score for 'This is a ground out.' is 0.125
+Jaccard score for 'The batter hit a fly ball to left field.' is 0.010416666666666666
+Jaccard score for 'The batter hit a fly ball to left field.' is 0.010416666666666666
+Jaccard score for 'The batter hit a fly ball to left field.' is 0.010416666666666666
+Jaccard score for 'The batter hit the ball.' is 0.05555555555555555
+Jaccard score for 'The batter took a check swing.' is 0.027777777777777776
+Jaccard score for 'The ball was not caught by the outfielder.' is 0.027777777777777776
+Jaccard score for 'The ball was not caught by the outfielder.' is 0.027777777777777776
+Jaccard score for 'The ball did not go through the strike zone.' is 0.013888888888888888
+Jaccard score for 'The ball did not go through the strike zone.' is 0.013888888888888888
+Jaccard score for 'The ball was caught in the air.' is 0.05555555555555555
+Jaccard score for 'The ball was caught in the air.' is 0.05555555555555555
+Average jaccard score: 0.04644097222222222

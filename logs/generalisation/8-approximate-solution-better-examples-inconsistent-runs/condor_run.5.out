@@ -1,0 +1,16 @@
+Results for 'This is a ground out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter hit a ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'This is labeled as a catch.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The 2nd baseman got the hitter out.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter swung at the pitch.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball did not end up in the field of play.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The player made contact hitting the ball back to the pitcher.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter hit it towards right field.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The outfielder caught it in the air.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball bounced on the ground.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball landed within the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was a home run.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was caught.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 0.7692307692307693
+Average precision score: 0.7692307692307693
+Average recall score: 0.7692307692307693

@@ -1,0 +1,3 @@
+# Match all files
+Feature_vectors_Resnet50V2/
+!.gitignore

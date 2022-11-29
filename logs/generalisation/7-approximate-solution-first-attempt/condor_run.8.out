@@ -1,0 +1,16 @@
+Results for 'It was a single.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was outside the strike zone.' is jaccard:0.3333333333333333/precision:0.5/recall:0.5
+Results for 'The batter hit a ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter hit it up in the air.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter sent it into left field.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter missed.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The pitch was called a ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball was caught in the air.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter hit a fly ball to left field.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It is a strike.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The hitter hit the ball to the pitcher.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter made contact with the ball.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter came all the way around on his swing.' is jaccard:0.25/precision:0.5/recall:0.3333333333333333
+Average jaccard score: 0.814102564102564
+Average precision score: 0.8461538461538461
+Average recall score: 0.8333333333333334

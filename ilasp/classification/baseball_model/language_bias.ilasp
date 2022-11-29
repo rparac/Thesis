@@ -1,0 +1,8 @@
+#modeh(conds(const(learnable_label))).
+
+#modeb(concept(const(concept_id))).
+
+#bias("
+:- constraint.
+").
+

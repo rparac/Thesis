@@ -1,0 +1,4 @@
+selected(invalid) :- neq(V2,V1), neq(V3,V1), neq(V3,V2), block(V1,V0), block(V2,V0), block(V3,V0), block(V0), cell(V1), cell(V2), cell(V3).
+selected(invalid) :- neq(V1,V2), neq(V2,V1), not block(V2,V0), block(V1,V0), col(V2,V3), col(V1,V3), block(V0), cell(V1), cell(V2), col(V3).
+
+

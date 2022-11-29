@@ -1,0 +1,16 @@
+Results for 'The fielder caught the ball in the air in shallow center field.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball bounced on the ground towards the second baseman.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The fielder caught the ball for an out.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The shortstop threw on to first base for an out.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The batter made contact.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The ball hit the ground before it was caught.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The ball did not appear to be in the strike zone.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter Altuve made contact with the pitch.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The pitcher got the runner out.' is jaccard:0.0/precision:0.0/recall:0.0
+Results for 'The 2nd baseman threw to first baseman.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter sent it into left field.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'It was caught midair by a defender.' is jaccard:1.0/precision:1.0/recall:1.0
+Results for 'The batter reached first base.' is jaccard:1.0/precision:1.0/recall:1.0
+Average jaccard score: 0.6923076923076923
+Average precision score: 0.6923076923076923
+Average recall score: 0.6923076923076923

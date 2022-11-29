@@ -1,0 +1,613 @@
+final_id,group_id,start_id,freq,text
+3,0,0,18, The bird has belly.
+30,63,1,8, The bird has wings.
+42,26,2,6, The bird has feet.
+12,13,3,12, The bird has breast.
+39,40,4,8, The bird has throat.
+-1,299,5,4, The bird has white throat.
+5,6,6,54, This bird is.
+13,22,7,50, This bird has.
+4,8,8,7, The bird has a beak.
+34,9,9,16, This bird has a crown.
+-1,199,10,5, This bird has a brown crown.
+10,167,11,29, The bird is.
+46,59,12,5, A bird with a cheek patch.
+39,40,13,11, A bird with throat.
+6,69,14,26, A bird with a bill.
+-1,169,15,9, A bird with a pointed bill.
+-1,115,16,6, A bird with a small bill.
+-1,158,17,3, A bird with a small pointed bill.
+38,207,18,36, That is.
+3,0,19,10, The bird has a belly.
+12,13,20,16, The bird has a breast.
+-1,195,21,3, A bird with a underbelly.
+-1,139,22,9, A small bird with a bill.
+5,6,23,72, This is a bird.
+-1,4,24,7, This is a grey bird.
+-1,251,25,3, This is a bird with feet.
+47,116,26,5, This is a beak.
+11,258,27,3, This bird has body.
+29,54,28,26, This bird has wings.
+-1,208,29,3, This bird has cheek patch.
+-1,57,30,6, This is a small bird.
+58,188,31,8, That has.
+15,50,32,6, A bird with wingbars.
+3,0,33,49, This bird has a belly.
+-1,12,34,25, This bird has a white belly.
+-1,103,35,3, This bird has a belly with a crown.
+4,8,36,29, This bird has a beak.
+12,13,37,28, This bird has a breast.
+3,0,38,3, This is a bird with belly.
+-1,245,39,7, This is a bird with a bill.
+4,8,40,3, A bird a beak.
+-1,287,41,7, A bird with eyes.
+-1,231,42,3, A black bird with eyes.
+49,277,43,4, A bird with red eyes.
+16,38,44,20, This bird has a bill.
+-1,297,45,6, This small bird has a bill.
+3,0,46,6, This small bird has a belly.
+-1,12,47,4, This small bird has a white belly.
+72,151,48,5, The belly is.
+17,234,49,7, The bird has a body.
+13,22,50,5, This little bird has.
+34,9,51,11, This bird has with a crown.
+34,9,52,3, This little bird has with a crown.
+29,54,53,21, This is a bird with wings.
+3,0,54,10, This is a bird with a belly.
+-1,12,55,6, This is a bird with a white belly.
+30,63,56,28, A bird with wings.
+-1,3,57,12, A small bird with wings.
+-1,217,58,4, A yellow bird with wings.
+6,69,59,16, A bird with bill.
+-1,139,60,6, A small bird with bill.
+-1,57,61,7, The small bird is.
+18,5,62,6, This is a bird with a head.
+-1,3,63,4, This is a small bird with wings.
+-1,28,64,3, This is a bird with black wings.
+4,8,65,27, A bird with a beak.
+-1,58,66,5, A bird with a pointed beak.
+-1,55,67,4, A bird with a long beak.
+17,234,68,4, A bird with a body.
+32,264,69,14, This bird has feathers.
+-1,55,70,10, This bird has a long beak.
+-1,4,71,4, A bird with grey wings.
+27,47,72,4, The bird has feathers.
+4,8,73,21, The bird has beak.
+6,69,74,6, A bird has a bill.
+39,40,75,5, The bird has a throat.
+-1,155,76,3, The bird has a long throat.
+31,96,77,19, The bird has a eyering.
+-1,18,78,14, The bird has a black eyering.
+-1,39,79,10, A small bird with a beak.
+-1,39,80,6, A bird with a small beak.
+-1,39,81,4, A small bird with a small beak.
+27,47,82,13, A bird with feathers.
+-1,128,83,5, A small bird with feathers.
+3,0,84,29, A bird with a belly.
+-1,30,85,18, A bird with a white belly.
+70,45,86,3, With a belly.
+54,187,87,10, With wings.
+-1,261,88,4, With black wings.
+6,69,89,37, The bird has a bill.
+-1,185,90,6, The bird has a long bill.
+-1,28,91,9, This is a black bird.
+5,6,92,6, This is a bird its.
+-1,237,93,3, A small bird with wingbars.
+20,56,94,16, A bird with a crown.
+-1,110,95,6, A small bird with a crown.
+27,47,96,5, Bird with feathers.
+-1,128,97,3, Small bird with feathers.
+3,0,98,17, A small bird with a belly.
+-1,12,99,10, A small bird with a white belly.
+22,29,100,9, A bird with head.
+-1,114,101,5, A small bird with head.
+-1,183,102,6, A small bird with throat.
+19,165,103,11, The bird has.
+23,238,104,10, The beak is.
+8,159,105,261, That are.
+15,50,106,3, The bird has wingbars.
+-1,298,107,7, This is a yellow bird.
+39,40,108,6, This is a bird with a throat.
+4,8,109,27, This is a bird with a beak.
+-1,46,110,11, This is a bird with a black beak.
+39,40,111,4, This bird has throat.
+34,9,112,8, This bird has crown.
+-1,294,113,4, This is a yellow bird with wings.
+31,96,114,5, The bird has eyering.
+-1,132,115,15, The bird has a black bill.
+30,63,116,4, Bird with wings.
+-1,3,117,3, Small bird with wings.
+4,8,118,4, Bird with beak.
+-1,39,119,4, Small bird with beak.
+67,21,120,14, This bird has a white breast.
+-1,289,121,4, This bird has its.
+-1,200,122,3, This is a red bird.
+-1,284,123,3, This is a red bird with a beak.
+-1,215,124,3, This is a red bird with wings.
+-1,4,125,7, This is a bird with grey wings.
+20,56,126,5, The bird has crown.
+69,64,127,8, The bird has tarsus.
+44,163,128,3, A bird with spots.
+-1,115,129,14, The bird has a small bill.
+-1,243,130,6, The bird has a small black bill.
+-1,295,131,3, This bird has legs.
+22,29,132,6, The bird has a head.
+-1,189,133,3, The bird has a small eyering.
+12,13,134,4, This is a bird with a breast.
+67,21,135,5, This is a bird with a white breast.
+-1,288,136,4, This is a grey bird with a beak.
+-1,293,137,3, This is a grey bird with a black beak.
+16,38,138,4, This bird has bill.
+12,13,139,14, This bird has breast.
+3,0,140,18, This bird has belly.
+-1,246,141,9, This bird has feet.
+17,234,142,4, The bird has body.
+-1,244,143,3, The bird has a chest.
+-1,18,144,3, The bird has black eyering.
+20,56,145,11, The bird has a crown.
+-1,142,146,5, The bird has a black crown.
+-1,197,147,13, This is a white bird.
+50,283,148,4, This is.
+4,8,149,7, A bird with beak.
+-1,39,150,4, A small bird with beak.
+22,29,151,18, A bird with a head.
+-1,114,152,9, A small bird with a head.
+-1,273,153,3, A brown bird with a head.
+-1,52,154,3, A small brown bird with a head.
+-1,265,155,5, A bird with a small head.
+-1,281,156,4, A small bird with a small head.
+-1,211,157,6, A bird with a black head.
+-1,209,158,3, This bird has a grey belly.
+-1,35,159,8, The bird has a yellow breast.
+6,69,160,7, The bird has bill.
+18,5,161,15, This bird has a head.
+68,32,162,3, A bird with black feathers.
+-1,260,163,5, This is a bird with a crown.
+-1,235,164,3, This is a bird with a black crown.
+-1,143,165,3, This is a bird with an orange beak.
+-1,285,166,3, This smaller bird has.
+-1,219,167,3, This bird has with a gray crown.
+12,13,168,16, This bird has breast with.
+12,13,169,3, This smaller bird has breast with.
+3,0,170,4, This smaller bird has a belly.
+-1,193,171,3, A sized bird with bill.
+12,13,172,15, A bird with breast.
+67,21,173,4, A bird with white breast.
+-1,181,174,5, A bird with primaries.
+29,54,175,3, This is a bird with a wing.
+4,8,176,3, This brown bird has a beak.
+-1,282,177,10, This is a brown bird.
+73,170,178,3, The wings are.
+11,258,179,21, This bird has a body.
+-1,93,180,4, This bird has a brown body.
+-1,4,181,3, This bird has grey wings.
+-1,230,182,4, A bird with a short bill.
+-1,286,183,3, The bird has sharp beak.
+-1,58,184,3, The bird has pointed beak.
+-1,80,185,8, This bird has neck.
+12,13,186,5, A small bird with breast.
+20,56,187,6, A bird with crown.
+-1,110,188,3, A small bird with crown.
+42,26,189,7, A bird with feet.
+-1,148,190,3, A small bird with feet.
+-1,201,191,3, A bird with black feet.
+-1,255,192,4, A bird with cheeks.
+-1,252,193,4, A small bird with cheeks.
+-1,275,194,3, A bird with brown wings.
+75,198,195,7, This bird has primaries.
+-1,122,196,8, It has.
+4,8,197,3, The bird has beak its.
+-1,39,198,4, The bird has small beak.
+3,0,199,6, A sized bird with a belly.
+-1,263,200,3, A sized bird with a white belly.
+-1,160,201,3, A medium sized bird with a belly.
+33,191,202,11, The bill is.
+28,233,203,8, The body is.
+12,13,204,8, A bird with a breast.
+-1,202,205,4, This black bird has.
+39,40,206,3, This bird has a throat.
+-1,190,207,3, This white bird has.
+-1,55,208,7, This is a bird with a long beak.
+-1,205,209,4, This is a bird with a long black beak.
+-1,196,210,4, This bird has a light belly.
+3,0,211,16, A bird with belly.
+18,5,212,10, This bird has head.
+-1,241,213,4, This bird has a pointy beak.
+-1,182,214,3, This bird has a long bill.
+-1,98,215,5, This bird has a black bill.
+3,0,216,3, This is a brown bird with a belly.
+4,8,217,4, This is a brown bird with a beak.
+-1,39,218,6, This is a bird with a small beak.
+34,9,219,3, This small bird has a crown.
+-1,10,220,9, This bird has a yellow belly.
+-1,216,221,4, A sized bird with a head.
+-1,171,222,4, This bird has secondaries.
+-1,223,223,5, This bird has wingbars.
+-1,212,224,3, This bird has gray primaries.
+-1,125,225,5, This bird has with a black crown.
+3,0,226,4, This little bird has a belly.
+45,175,227,4, It's.
+-1,174,228,5, This bird has a brown head.
+-1,227,229,7, This bird is its.
+13,22,230,6, This small bird has.
+-1,80,231,3, This bird has with a neck.
+-1,164,232,3, This bird has with a black neck.
+34,9,233,7, This bird has with crown.
+66,24,234,6, This bird has with nape.
+12,13,235,5, This small bird has a breast.
+67,21,236,4, This small bird has a white breast.
+-1,166,237,4, This bird has a black head.
+-1,3,238,7, This small bird has wings.
+12,13,239,5, A small bird with a breast.
+48,210,240,5, The head is.
+-1,276,241,4, The head of the bird is.
+3,0,242,3, This small bird has belly.
+41,259,243,5, A bird with markings.
+-1,28,244,3, This bird has black feathers.
+-1,46,245,3, This bird has a black beak.
+-1,39,246,6, This bird has a small beak.
+-1,67,247,3, This bird has a small black beak.
+3,0,248,5, A brown bird with a belly.
+-1,141,249,3, This is a bird with a grey head.
+-1,162,250,3, This is a yellow bird with grey wings.
+-1,10,251,5, The bird has a yellow belly.
+47,116,252,6, It has beak.
+-1,28,253,4, This bird has black wings.
+69,64,254,3, This bird has tarsus.
+-1,256,255,3, This colorful bird has wings.
+-1,134,256,4, This bird has brown wings.
+4,8,257,7, Bird with a beak.
+-1,46,258,3, This is a black bird with a beak.
+-1,46,259,3, This is a black bird with a black beak.
+66,24,260,5, This bird has nape.
+47,116,261,4, It has beak its.
+-1,117,262,4, It has small beak.
+-1,117,263,4, It has small beak its.
+-1,51,264,4, It has beak compared to body size.
+-1,43,265,4, It has small beak compared to body size.
+-1,51,266,4, It has beak compared to its body size.
+-1,43,267,4, It has small beak compared to its body size.
+3,0,268,6, A small bird with belly.
+-1,30,269,5, A bird with white belly.
+-1,12,270,3, A small bird with white belly.
+-1,142,271,3, A bird with black crown.
+-1,150,272,7, A bird with a tail.
+40,168,273,6, A small bird with a tail.
+-1,99,274,5, A bird with a long tail.
+-1,221,275,4, A small bird with a long tail.
+-1,271,276,8, This bird has a black body.
+52,33,277,3, Which is.
+-1,39,278,4, Small bird with a beak.
+53,94,279,4, A bird with coverts.
+55,194,280,3, White striped.
+-1,35,281,6, This bird has a yellow breast.
+-1,236,282,4, This bird has a flat beak.
+-1,296,283,3, A bird with brown breast.
+47,116,284,3, With a beak.
+-1,90,285,3, A brown bird with a breast.
+-1,153,286,3, A brown bird with a bill.
+-1,220,287,3, A bird with brown head.
+-1,52,288,3, A small bird with brown head.
+31,96,289,3, A bird with eyering.
+-1,154,290,6, A bird with secondaries.
+-1,25,291,5, This is a white bird with a beak.
+-1,76,292,6, This colorful bird has.
+-1,132,293,8, A bird with a black bill.
+46,59,294,3, A bird with cheek patch.
+-1,161,295,3, This bird has a body with a bill.
+-1,218,296,3, This bird has a body with a black bill.
+3,0,297,3, A small sized bird with a belly.
+77,186,298,3, That has feathers.
+-1,25,299,3, This is a white bird with a black beak.
+-1,247,300,3, This bird has a yellow bill.
+-1,248,301,3, This white bird has a bill.
+-1,107,302,3, This is a colored bird.
+4,8,303,3, A brown bird with a beak.
+-1,179,304,4, A small bird with a black head.
+-1,46,305,4, A bird with a black beak.
+-1,262,306,5, This bird has a white body.
+23,238,307,4, Beak is.
+-1,225,308,3, This bird has tail.
+74,172,309,4, A bird with hues.
+-1,274,310,3, A small bird with hues.
+-1,253,311,3, A bird with black primaries.
+-1,177,312,5, A bird with eyebrow.
+-1,146,313,3, A bird with a short beak.
+-1,67,314,3, A small bird with a black beak.
+-1,55,315,3, The bird has long beak.
+70,45,316,3, With belly.
+68,32,317,3, A bird with black.
+-1,173,318,3, A bird with back.
+68,32,319,3, A bird with black markings.
+-1,123,320,3, This is a large bird.
+17,234,321,3, A bird with body.
+-1,149,322,3, This bird has a short bill.
+56,242,323,3, The bird has a wingspan.
+-1,222,324,3, A bird with a red breast.
+-1,35,325,3, A bird with yellow breast.
+67,21,326,3, The bird has a white breast.
+-1,206,327,3, A bird with white eyebrow.
+68,32,328,4, A bird with black wings.
+-1,249,329,3, A small bird with a black bill.
+-1,134,330,3, This is a bird with brown wings.
+-1,97,331,3, A sized bird with wings.
+-1,267,332,3, A medium sized bird with wings.
+3,0,333,4, This bird has a brown belly.
+3,0,334,3, This bird has a light brown belly.
+-1,109,335,4, This bird has with superciliary.
+-1,224,336,4, This bird has a pointed bill.
+76,213,337,3, The crown is.
+-1,254,338,3, This small bird has a body.
+-1,85,339,5, The body of the bird is.
+-1,57,340,3, This small bird is.
+71,229,341,3, This bird has eyes.
+12,13,342,3, A bird has a breast.
+-1,57,343,4, This little bird is.
+43,178,344,4, This bird looks.
+25,137,345,7, They are.
+-1,270,346,3, This bird a beak.
+-1,286,347,3, Bird with a sharp beak.
+-1,203,348,3, A medium sized bird with a head.
+-1,192,349,3, A bird with dark wings.
+57,250,350,3, He has.
+52,33,351,6, Which are.
+-1,180,352,3, A bird with a face.
+-1,157,353,3, With feet.
+1,7,354,76, The petals are.
+-1,65,355,18, The petals on this flower are.
+0,2,356,225, This flower has petals.
+0,2,357,17, A flower with petals.
+-1,118,358,3, A flower with red petals.
+-1,184,359,3, A flower with no pistils.
+0,2,360,78, The flower has petals.
+-1,1,361,9, The flower has pink petals.
+-1,65,362,20, The petals of the flower are.
+-1,121,363,8, The Petals are pink in color.
+-1,1,364,7, The petals of the flower are pink in color.
+1,7,365,4, The petals have.
+-1,65,366,4, The petals of the flower have.
+-1,152,367,8, The Petals are red in color.
+-1,66,368,8, The petals of the flower are red in color.
+-1,239,369,3, The anthers are.
+0,2,370,13, This flower has yellow petals.
+0,2,371,9, This flower has long petals.
+2,86,372,187, This flower is.
+-1,1,373,48, This flower is pink in color.
+0,2,374,125, This flower is with petals.
+-1,11,375,3, The flower has light petals.
+35,257,376,6, A flower with stamen.
+-1,19,377,20, This flower is purple in color.
+-1,65,378,29, The petals of this flower are.
+-1,104,379,7, The Petals are white with a stigma.
+-1,279,380,7, The petals of this flower are white with a stigma.
+-1,111,381,5, That are layered.
+-1,1,382,23, This flower is pink with petals.
+-1,1,383,23, This flower is pink in color with petals.
+-1,19,384,9, This flower is purple in color with petals.
+-1,75,385,12, That are shaped.
+-1,120,386,16, This flower is red in color.
+21,290,387,23, This flower has.
+-1,131,388,4, That are wrapped.
+-1,291,389,3, That are wrapped around the center.
+-1,126,390,3, That are orange with stamen.
+-1,19,391,8, The flower has purple petals.
+0,2,392,58, This flower is yellow in color.
+14,72,393,11, This flower has stamen.
+-1,16,394,3, This flower has stamen by petals.
+-1,278,395,6, The Petals are white with a short stigma.
+-1,92,396,6, The petals of this flower are white with a short stigma.
+-1,1,397,15, This flower has pink petals.
+-1,11,398,6, This flower has light petals.
+-1,74,399,5, This flower has light pink petals.
+-1,27,400,12, That are ruffled.
+0,2,401,20, This flower is yellow in color with petals.
+-1,62,402,3, This flower has overlapping petals.
+-1,100,403,16, That are pointed.
+-1,176,404,6, That are pointed at the tips.
+-1,129,405,14, This flower is white in color.
+64,95,406,3, This flower has anther.
+-1,226,407,6, The Petals are pink with a stigma.
+-1,20,408,6, The petals of this flower are pink with a stigma.
+-1,49,409,3, The Petals are pink with a short stigma.
+-1,105,410,3, The petals of this flower are pink with a short stigma.
+-1,204,411,7, This flower is green in color.
+-1,48,412,6, That are pink with stamen.
+-1,87,413,4, That are leaf.
+-1,42,414,5, This flower has layers.
+-1,42,415,3, This flower has many layers.
+0,2,416,5, This flower has layers of petals.
+0,2,417,3, This flower has many layers of petals.
+-1,1,418,3, This flower has layers of pink petals.
+-1,268,419,6, Yellow in color.
+0,2,420,6, These flowers have petals.
+0,2,421,18, This flower has large petals.
+0,2,422,20, This flower has white petals.
+0,2,423,4, This flower has large white petals.
+14,72,424,5, This flower has a stamen.
+-1,83,425,3, Arranged around stamens.
+7,113,426,24, The flower is.
+-1,79,427,3, That are striped.
+-1,88,428,3, The Petals are red with a stigma.
+-1,37,429,3, The petals of this flower are red with a stigma.
+0,2,430,6, This flower is with petal.
+-1,66,431,3, This flower is red in color with petal.
+0,2,432,6, This flower is with large petal.
+-1,272,433,3, This flower is red in color with large petal.
+0,2,434,4, The flower has thick petals.
+2,86,435,15, This is a flower.
+9,23,436,3, A flower with Orange petals.
+-1,101,437,9, That are spotted.
+0,2,438,3, Flowers with petals.
+1,7,439,10, Petals are.
+59,17,440,7, This flower is orange.
+24,144,441,13, The flower has.
+0,2,442,6, The flower has a petal.
+-1,228,443,13, That are rounded.
+-1,147,444,4, Pink in color.
+7,113,445,6, Flower is.
+0,2,446,23, This flower has petals its.
+-1,14,447,9, This flower has small petals.
+-1,14,448,4, This flower has small petals its.
+0,2,449,15, This flower has petals as features.
+-1,14,450,3, This flower has small petals as features.
+0,2,451,15, This flower has petals as its features.
+-1,14,452,3, This flower has small petals as its features.
+0,2,453,15, This flower has petals as main features.
+-1,14,454,3, This flower has small petals as main features.
+0,2,455,15, This flower has petals as its main features.
+-1,14,456,3, This flower has small petals as its main features.
+26,133,457,7, This flower has pistil.
+26,133,458,6, This flower has pistil its.
+26,133,459,4, This flower has yellow pistil.
+26,133,460,4, This flower has yellow pistil its.
+26,133,461,6, This flower has pistil as features.
+26,133,462,4, This flower has yellow pistil as features.
+26,133,463,6, This flower has pistil as its features.
+26,133,464,4, This flower has yellow pistil as its features.
+26,133,465,6, This flower has pistil as main features.
+26,133,466,6, This flower has pistil as its main features.
+26,133,467,4, This flower has yellow pistil as main features.
+26,133,468,4, This flower has yellow pistil as its main features.
+36,108,469,3, This flower has a pollen tube.
+-1,226,470,3, The Petals are pink with a long stigma.
+-1,20,471,3, The petals of this flower are pink with a long stigma.
+61,78,472,8, This flower has a center.
+0,2,473,7, This flower has a yellow center.
+0,2,474,13, The flower has white petals.
+-1,102,475,4, This flower has a lot.
+0,2,476,3, This flower has a lot of petals.
+-1,138,477,4, This flower has no stigma.
+-1,124,478,3, This flower has no visible stigma.
+-1,34,479,7, That are purple with stamen.
+-1,71,480,4, That are white with stamen.
+-1,15,481,3, That are white with yellow stamen.
+0,2,482,4, This flower has a petal.
+0,2,483,3, Flower has petals.
+59,17,484,6, This flower is orange in color.
+9,23,485,6, This flower is orange with petals.
+9,23,486,6, This flower is orange in color with petals.
+-1,68,487,4, This flower has petals with edges.
+60,61,488,3, White in color.
+-1,127,489,4, Sepals are.
+63,91,490,3, Sepals are green in color.
+-1,66,491,14, This flower has red petals.
+0,2,492,4, The flower has large petals.
+-1,16,493,3, The petals are yellow with stamen.
+-1,16,494,3, The petals on this flower are yellow with stamen.
+-1,16,495,3, The petals are yellow with yellow stamen.
+-1,16,496,3, The petals on this flower are yellow with yellow stamen.
+-1,70,497,5, The petals are purple with a stigma.
+-1,112,498,5, The petals of this flower are purple with a stigma.
+-1,70,499,3, The petals are purple with a long stigma.
+-1,112,500,3, The petals of this flower are purple with a long stigma.
+0,2,501,3, This flower has several petals.
+-1,214,502,4, This flower has smooth petals.
+0,2,503,3, This flower has long white petals.
+-1,240,504,3, Oval shaped.
+-1,31,505,3, This flower is peach.
+-1,31,506,3, This flower is peach in color.
+-1,16,507,4, This flower has petals with stamen.
+-1,60,508,3, That are green with stamen.
+26,133,509,5, This flower has a pistil.
+-1,73,510,3, The yellow flower has.
+-1,84,511,8, That are curled.
+-1,130,512,3, That are yellow in color.
+-1,135,513,4, This flower has a center by petals.
+0,2,514,4, This flower has a yellow center by petals.
+0,2,515,3, This flower has a center by white petals.
+0,2,516,3, This flower has a yellow center by white petals.
+62,232,517,4, That are stamens.
+0,2,518,3, Flower with petals.
+-1,82,519,4, That are spotted on the inside.
+-1,19,520,16, This flower has purple petals.
+-1,19,521,5, This flower has large purple petals.
+0,2,522,5, The flower has a white petal.
+-1,34,523,3, That are purple with white stamen.
+-1,44,524,8, This flower has thin petals.
+-1,44,525,3, This flower has thin petals its.
+0,2,526,6, This flower has white petals its.
+0,2,527,8, This flower has petals as feature.
+0,2,528,3, This flower has white petals as feature.
+-1,44,529,3, This flower has thin petals as feature.
+0,2,530,8, This flower has petals as its feature.
+-1,44,531,3, This flower has thin petals as its feature.
+0,2,532,3, This flower has white petals as its feature.
+0,2,533,8, This flower has petals as main feature.
+0,2,534,3, This flower has white petals as main feature.
+-1,44,535,3, This flower has thin petals as main feature.
+0,2,536,8, This flower has petals as its main feature.
+-1,44,537,3, This flower has thin petals as its main feature.
+0,2,538,3, This flower has white petals as its main feature.
+0,2,539,3, A flower with white petals.
+51,81,540,3, A flower with anther.
+-1,118,541,3, The flower has red petals.
+0,2,542,3, A flower with yellow petals.
+9,23,543,5, The flower has orange petals.
+-1,66,544,6, This flower is red with petals.
+-1,66,545,6, This flower is red in color with petals.
+-1,36,546,6, This flower has bright petals.
+-1,156,547,3, This flower has blue petals.
+-1,136,548,3, That are stacked.
+-1,269,549,6, This flower is blue in color.
+-1,14,550,3, The flower has small petals.
+0,2,551,6, The flower has yellow petals.
+0,2,552,7, This flower is white with petals.
+0,2,553,7, This flower is white in color with petals.
+0,2,554,3, A flower with petal.
+-1,27,555,3, That ruffled.
+26,133,556,3, This flower has petals with pistil.
+26,133,557,3, This flower has petals with pistil its.
+26,133,558,3, This flower has petals with yellow pistil.
+26,133,559,3, This flower has petals with yellow pistil its.
+0,2,560,3, This flower has white petals as features.
+0,2,561,3, This flower has white petals as its features.
+26,133,562,3, This flower has petals with pistil as features.
+26,133,563,3, This flower has petals with pistil as its features.
+26,133,564,3, This flower has petals with yellow pistil as features.
+26,133,565,3, This flower has petals with yellow pistil as its features.
+0,2,566,3, This flower has white petals as main features.
+0,2,567,3, This flower has white petals as its main features.
+26,133,568,3, This flower has petals with pistil as main features.
+26,133,569,3, This flower has petals with pistil as its main features.
+26,133,570,3, This flower has petals with yellow pistil as main features.
+26,133,571,3, This flower has petals with yellow pistil as its main features.
+-1,1,572,3, A flower with pink petals.
+0,2,573,3, This flower has bright yellow petals.
+-1,140,574,10, That are red with stamen.
+65,292,575,3, The flower has a green.
+0,2,576,3, This flower has many petals.
+-1,119,577,3, This flower has petals with anthers.
+0,2,578,3, This flower has petals with yellow anthers.
+-1,106,579,3, This flower has small purple petals.
+0,2,580,3, This flower has yellow petals its.
+0,2,581,3, This flower has yellow petals as features.
+0,2,582,3, This flower has yellow petals as its features.
+0,2,583,3, This flower has yellow petals as main features.
+0,2,584,3, This flower has yellow petals as its main features.
+0,2,585,6, This is a flower with petals.
+-1,66,586,4, This flower has red petals its.
+-1,66,587,3, This flower has red petals as feature.
+-1,66,588,3, This flower has red petals as its feature.
+-1,66,589,3, This flower has red petals as main feature.
+-1,66,590,3, This flower has red petals as its main feature.
+-1,280,591,3, This flower has filament.
+-1,15,592,4, That are red with yellow stamen.
+0,2,593,3, This flower has thick petals.
+-1,53,594,3, That are red with white stamen.
+0,2,595,3, The flower has petals its.
+0,2,596,3, The flower has thick white petals.
+0,2,597,3, The flower has petals as feature.
+0,2,598,3, The flower has petals as its feature.
+0,2,599,3, The flower has petals as main feature.
+0,2,600,3, The flower has petals as its main feature.
+-1,89,601,3, This is a white flower.
+-1,266,602,5, That have veins.
+-1,77,603,3, A flower with cluster.
+37,145,604,3, That is fused.
+-1,19,605,5, This flower has purple petals its.
+-1,19,606,4, This flower has purple petals as features.
+-1,19,607,4, This flower has purple petals as its features.
+-1,19,608,4, This flower has purple petals as main features.
+-1,19,609,4, This flower has purple petals as its main features.
+-1,34,610,3, That are purple with yellow stamen.
+-1,41,611,3, That are overlapping.

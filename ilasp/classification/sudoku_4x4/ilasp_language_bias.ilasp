@@ -1,0 +1,12 @@
+#modeh(selected(invalid)).
+
+
+#modeb(1, row(var(cell), var(row)), (positive)).
+#modeb(1, col(var(cell), var(col)), (positive)).
+#modeb(1, block(var(cell), var(block)), (positive)).
+#modeb(1, neq(var(cell), var(cell)), (positive)).
+#modeb(1, value(var(cell), var(num)), (positive)).
+
+#maxv(4).
+
+#bias(":- constraint.").

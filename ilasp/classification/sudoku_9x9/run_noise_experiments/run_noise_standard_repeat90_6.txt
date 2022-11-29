@@ -1,0 +1,6 @@
+
+selected(invalid) :- neq(V0,V1), neq(V1,V0), row(V0,V3), value(V0,V2), value(V1,V2), row(V1,V3), cell(V0), cell(V1), num(V2), row(V3).
+selected(invalid) :- neq(V0,V1), neq(V1,V0), col(V1,V2), value(V0,V3), value(V1,V3), col(V0,V2), cell(V0), cell(V1), col(V2), num(V3).
+selected(invalid) :- neq(V1,V2), neq(V2,V1), block(V1,V0), block(V2,V0), value(V1,V3), value(V2,V3), block(V0), cell(V1), cell(V2), num(V3).
+
+
